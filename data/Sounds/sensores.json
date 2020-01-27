@@ -1,0 +1,29 @@
+[
+  {
+    "pomid": 41908,
+    "name": "US-01",
+    "type": "usound",
+    "latitude": "19.43073882",
+    "longitude": "-99.19010103",
+    "attributes": [
+      {
+        "attributeid": "distance_from_walls",
+        "value": "0",
+        "last_update": 1570187094983
+      },
+      {
+        "attributeid": "feeding_type",
+        "value": "01",
+        "last_update": 1570187094987
+      },
+      {
+        "attributeid": "offset_sound",
+        "value": "0",
+        "last_update": 0
+      }
+    ],
+    "elementid": "0100001a5beff624",
+    "status_location": 2,
+    "entity": "sounds"
+  }
+]

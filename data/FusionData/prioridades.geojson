@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "prioridades",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Miguel A y Serdan", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -101.683757588362994, 21.126115850719842, 0.0 ], [ -101.685571571276498, 21.12684285408816, 0.0 ], [ -101.685935718303696, 21.125033614756578, 0.0 ], [ -101.686324513085793, 21.12334983464482, 0.0 ], [ -101.686488908647902, 21.12236414165023, 0.0 ], [ -101.685501467639, 21.122056978955879, 0.0 ], [ -101.683757588362994, 21.126115850719842, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "Moreno y Madero", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -101.680135031828598, 21.12317667228734, 0.0 ], [ -101.680811066040604, 21.121682141569529, 0.0 ], [ -101.672301198477498, 21.118945452628878, 0.0 ], [ -101.672193647953705, 21.119065296886468, 0.0 ], [ -101.672697203047306, 21.120833849998, 0.0 ], [ -101.680135031828598, 21.12317667228734, 0.0 ] ] ] } }
+]
+}

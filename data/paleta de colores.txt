@@ -1,0 +1,6 @@
+Activo
+#26519F
+inactivo
+#6A7D9E
+Presionado
+#1D3C74

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <title>Guanajuato</title>
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport">
+       
+        
+        <meta data-lcd-included-files="js/main.js" id="include_highlights_from">
+        
+        <!--script src="../../samples/lib/jquery/jquery-1.12.2.min.js" type="text/javascript"></script-->  
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!--script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script-->
+       
+        
+        <script src="../../proyecto/recursos/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+        <!--link href="../recursos/css/bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+        <!--link href="../recursos/css/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet"-->
+        
+        <link href="../../samples/template/css/sample-single.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link href="css/demo.css" rel="stylesheet">
+        <link href="../../proyecto/recursos/css/label.css" rel="stylesheet">
+        <link href="../../proyecto/recursos/css/sliderCheckBox.css" rel="stylesheet">
+        <link href="../../proyecto/recursos/css/logos.css" rel="stylesheet">
+        <link href="../../proyecto/recursos/css/trajectories.css" rel="stylesheet">
+        <link href="css/heatMapChart.css" rel="stylesheet">
+        <link href="../../proyecto/recursos/css/timeChart.css" rel="stylesheet">
+        <link href="css/jquery-ui.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+         
+        <script type="text/javascript" src="../../proyecto/recursos/js/AdvancedTimeSlider/lib/moment.min.js"></script>
+        <script type="text/javascript" src="../../proyecto/recursos/js/AdvancedTimeSlider/lib/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="../../proyecto/recursos/js/AdvancedTimeSlider/lib/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+        
+        
+            <script type="text/javascript">
+            $(function () {
+                
+               /* $('.timepicker').timepicker({
+                    timeFormat: 'h:mm:ss',
+                    interval: 1,
+                    //defaultTime: '11',
+                    //startTime: '10:00',
+                    dynamic: false,
+                    dropup: true,
+                    scrollbar: true
+                });*/
+            });
+            
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
+            //if(isMobile)
+              //  Redireccionar();
+            
+            function Redireccionar(){
+                location.href="indexm.html";
+            }
+            
+        window.__lcdBasePath = '../../';
+        window.__lcdMobileTemplate = false;
+        function resetMapSize() {
+            var ui = $('#topLine');
+            var height = window.innerHeight - ui.outerHeight();
+            //var height = window.innerHeight;
+            $('#map').height(height);
+        }
+        $(function () {
+            // Toggle info panel
+            $("#showinfo").click(function () {
+                $('#showinfo').toggleClass('active');
+                $("#infopanel").fadeToggle();
+            });
+            // Add bootstrap to forms
+            $("select").addClass("form-control");
+            $("button").addClass("form-control");
+            $("input").addClass("form-control");
+            $("input[type=checkbox]").addClass("checkbox");
+            $("input[type=radio]").addClass("radio");
+            // Change map size on window resize
+            resetMapSize();
+            $(window).resize(resetMapSize);
+            // Wire fullscreen button
+            function requestFullscreen(elem) {
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                    elem.mozRequestFullScreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                }
+            }
+            function cancelFullscreen() {
+                if (document.cancelFullScreen) {
+                    document.cancelFullScreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitCancelFullScreen) {
+                    document.webkitCancelFullScreen();
+                } else if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+            function isFullscreen() {
+                return !!(document.fullscreenElement || // alternative standard method
+                        document.mozFullScreenElement
+                        || document.webkitFullscreenElement
+                        || document.msFullscreenElement); // current working methods
+            }
+            $("#fullscreen").click(function () {
+                var elem = document.body;
+                if (!isFullscreen()) {
+                    requestFullscreen(elem);
+                } else {
+                    cancelFullscreen();
+                }
+            });
+            function toggleFullscreenButtonIcon() {
+                $("#fullscreen-button").toggleClass("glyphicon-fullscreen", !isFullscreen());
+                $("#fullscreen-button").toggleClass("glyphicon-resize-small", isFullscreen());
+            }
+            document.addEventListener("fullscreenchange", toggleFullscreenButtonIcon, false);
+            document.addEventListener("mozfullscreenchange", toggleFullscreenButtonIcon, false);
+            document.addEventListener("webkitfullscreenchange", toggleFullscreenButtonIcon, false);
+            document.addEventListener("MSFullscreenChange", toggleFullscreenButtonIcon, false);
+            
+            
+          });
+          
+        </script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+    </head>
+    <body  >
+        
+        <!--div id="topLine">
+            
+        </div>
+        <!--style="background-color: #cfc9c9 !important"-->
+        <div id="map" >
+
+            <div id="topleftbuttons">
+                
+                <!--a class="btn btn-default btn-map" id="showinfo" role="button" title="More info">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </a-->
+                <a class="btn btn-default btn-map" id="fullscreen" role="button" title="Fullscreen">
+                    <span class="glyphicon glyphicon-fullscreen" id="fullscreen-button"></span>
+                </a>
+                <a class="btn btn-default btn-map" id="cambiarMapa" role="button" title="Cambiar Mapa">
+                    <span class="glyphicon glyphicon-random"></span>
+                </a>
+                <a class="btn btn-default btn-map" id="Labels" role="button" title="Ocultar Etiquetas">
+                    <span class="glyphicon glyphicon-tag"></span>
+                </a>
+                <!--a class="btn btn-default btn-map" id="verPanelDron" role="button" title="Ver Video Dron">
+                    <span class="glyphicon glyphicon-facetime-video"></span>
+                </a-->
+            </div>
+            <div id="onmap">
+                <div id="logoLeon"></div>
+                <!--span class="topcenter noselect label" id="timelabel">--:--</span-->
+            </div>
+            
+            <!-- ===================================================================================
+                                            Panel Balloon
+             ==================================================================================== -->
+            <div class="panel" id="balloonSensores" >
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#balloonSensores").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent">
+                    <div id="sensorContent"></div>
+                <div id="Graficas"></div>
+                </div>
+            </div>
+            <!-- ===================================================================================
+                                            Panel Balloon
+             ==================================================================================== -->
+            <div class="panel" id="balloonLuminarias" >
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#balloonLuminarias").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent">
+                    <label id="idLuminaria"></label>
+                    <div id="luminariaContent"></div>
+                    <label class="switch">
+                        <input type="checkbox" id="cEncenderApagar" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                        Panel Graficas Ambiental
+            ===================================================================================================== -->
+            <div id="pTimeChartSensores" class="big panel" >
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#pTimeChartSensores").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class='panelContent' style="height: calc(100% - 125px)">
+                    <label>Control del Sensor Ambiental</label>
+                    <div id="graficasSensores"></div>
+                    
+                    <button id="verTablasAmbiental" style="position: absolute; right: 10px; width: 200px;">Ver Tablas</button>
+                    <div id="panelGraficaHistorial">
+                        <label>Grafica Historial de Ambiental por Parametro</label>
+                        <div  class="labelError" id="labelAmbientalH"></div>
+                        <table>
+                            <tr>
+                                <td>Selecciona Parametro</td>
+                                <td><div><select class='selectPanel form-control' id='selectorParametroH'>
+                                </select></td>
+                                <td><img id="loadingHistorial" src="../recursos/icons/loadingPage.gif" width="30" height="30"></td>
+                            </tr>
+                        </table>
+                        <div id="graficaAmbientalH"></div>
+                        
+                        <div id="detallesParametrosAmbiental">
+                            <label>Detalles de Parametro</label>
+                            <button id="verTablasAmbientalDetalles" style="position: absolute; right: 10px; width: 200px;">Ver Tablas Detalles</button>
+                            <div id="tablaDetallesAmbiental"></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="bottom: 10px; position:absolute">
+                    <table>
+                        <tr>
+                            <td><label>Fecha Inicio</label></td><td></td><td></td><td></td>
+                            <td><label>Fecha Fin</label></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="datetime" class="datepicker" id="fecha1" placeholder='Fecha Inicio'></td>
+                            <td><select id="time1" class='selectPanel form-control'>
+                                    <option value="0">00:00</option>
+                                <option value="2">01:00</option><option value="2">02:00</option><option value="3">03:00</option>
+                                <option value="4">04:00</option><option value="5">05:00</option><option value="6">06:00</option>
+                                <option value="7">07:00</option><option value="8">08:00</option><option value="9">09:00</option>
+                                <option value="10">10:00</option><option value="11">11:00</option><option value="12">12:00</option>
+                                <option value="13">13:00</option><option value="14">14:00</option><option value="15">15:00</option>
+                                <option value="16">16:00</option><option value="17">17:00</option><option value="18">18:00</option>
+                                <option value="19">19:00</option><option value="20">20:00</option><option value="21">21:00</option>
+                                <option value="22">22:00</option><option value="23">23:00</option>
+                            </select></td>
+                            <td width="200">
+                                <!--div id="timeChart3"></div-->
+                            </td>
+                            <td><input type="datetime" class="datepicker" id="fecha2" placeholder='Fecha Termino'></td>
+                            <td><select id="time2" class='selectPanel form-control'>
+                                    <option value="0">00:00</option>
+                                <option value="2">01:00</option><option value="2">02:00</option><option value="3">03:00</option>
+                                <option value="4">04:00</option><option value="5">05:00</option><option value="6">06:00</option>
+                                <option value="7">07:00</option><option value="8">08:00</option><option value="9">09:00</option>
+                                <option value="10">10:00</option><option value="11">11:00</option><option value="12">12:00</option>
+                                <option value="13">13:00</option><option value="14">14:00</option><option value="15">15:00</option>
+                                <option value="16">16:00</option><option value="17">17:00</option><option value="18">18:00</option>
+                                <option value="19">19:00</option><option value="20">20:00</option><option value="21">21:00</option>
+                                <option value="22">22:00</option><option value="23">23:00</option>
+                            </select></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                        Panel de sonido
+            ===================================================================================================== -->
+            <div id="pTimeChartSensoresSonido" class="big panel" >
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#pTimeChartSensoresSonido").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent" style="height: calc(100% - 125px)">
+                    <button id="verTablasSonido" style="position: absolute; right: 10px; width: 200px;">Ver Tablas</button>
+                    <p><label>Sensor de sonido</label></p>
+                    <div class="labelError"  id="labelSonido"></div>
+                    <table>
+                        <tr><label>Nivel de sonido continuo LAeq</label><img id="loadingHistorialSonido0" src="../recursos/icons/loadingPage.gif" width="30" height="30"></tr>
+                        <tr><div id="chartSensorHistorial0"></div></tr>
+                    </table>
+                    <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                    <table>
+                        <tr><label>Nivel de sonido continuo LCeq</label><img id="loadingHistorialSonido1" src="../recursos/icons/loadingPage.gif" width="30" height="30"></tr>
+                        <tr><div id="chartSensorHistorial1"></div></tr>
+                    </table><hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/><table>
+                        <tr><label>Nivel de sonido continuo Leq</label><img id="loadingHistorialSonido2" src="../recursos/icons/loadingPage.gif" width="30" height="30"></tr>
+                        <tr><div id="chartSensorHistorial2"></div></tr>
+                    </table><!--hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/><table>
+                        <tr><label>Gráfica comparativa</label></tr>
+                        <tr><div id="soindoComp"></div></tr>
+                    </table-->
+                    
+                </div>
+                
+                <div style="bottom: 10px; position:absolute">
+                    <table>
+                         <tr>
+                            <td><label>Fecha Inicio</label></td><td></td><td></td><td></td>
+                            <td><label>Fecha Fin</label></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="datetime" class="datepicker" id="fechaSound1" placeholder='Fecha Inicio'></td>
+                            
+                            <td><select id="timeSound1" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeSound1-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td>
+                                
+                            <td width="100"></td>
+                            
+                            <td><input type="datetime" class="datepicker" id="fechaSound2" placeholder='Fecha Termino'></td>
+                            <td><select id="timeSound2" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeSound2-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                        Panel de Movilidad
+            ===================================================================================================== -->
+            <div id="pTimeChartMovilidad" class="big panel" >
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#pTimeChartMovilidad").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent" style="height: calc(100% - 125px)">
+                    <button id="verTablasMovilidad" style="position: absolute; right: 10px; width: 200px;">Ver Tablas</button>
+                    <p><label>Graficas Movilidad</label></p>
+                    <div class="labelError"  id="labelMovilidad"></div>
+                    <table>
+                            <tr>
+                                <td>Selecciona Nodo</td>
+                                <td><div><select class='selectPanel form-control' id='selectorNodo'>
+                                            <option value="0">1125</option><option value="1">1126</option>
+                               </select></td>
+                               <td><img id="loadingHistorialMovilidad0" src="../recursos/icons/loadingPage.gif" width="30" height="30"></td>
+                            </tr><tr>
+                                <td>Seleccionar Parametro</td>
+                                <td><select class='selectPanel form-control' id='selectorParametroNodos'>
+                                            <option value="0">Todos</option><option value="1">Total</option>
+                                            <option value="2">Vehiculos</option><option value="3">Celulares</option>
+                                            <option value="4">Otros</option><option value="5">Devices</option>
+                               </select></td>
+                               <td></td>
+                            </tr>
+                        </table>
+                    <table id="graficaMovilidad2">
+                        
+                        <tr><label>Tipo Dispositivo</label></tr>
+                        <tr><div id="chartMovilidadHistorial0"></div></tr>
+                    </table>
+                    
+                    <table>
+                        <tr>
+                            <td>Selecciona Vector</td>
+                            <td><div><select class='selectPanel form-control' id='selectorVector'>
+                                        <option value="0">952</option><option value="1">953</option>
+                           </select></td>
+                           <td><img id="loadingHistorialMovilidad1" src="../recursos/icons/loadingPage.gif" width="30" height="30"></tr></td>
+                        </tr><tr>
+                            <td>Selecciona Parametro</td>
+                                <td><div><select class='selectPanel form-control' id='selectorParametroVector'>
+                                            <option value="0">Tiempo</option><option value="1">Velocidad</option>
+                               </select></td>
+                        </tr>
+                    </table>
+                    <table id="graficaMovilidad0">
+                        <tr><label id="labelGraficaMTV">Tiempo (s)</label>
+                        <tr><div id="chartMovilidadHistorial1"></div></tr>
+                    </table>
+                    
+                </div>
+                
+                <div style="bottom: 10px; position:absolute">
+                    <table>
+                         <tr>
+                            <td><label>Fecha Inicio</label></td><td></td><td></td><td></td>
+                            <td><label>Fecha Fin</label></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="datetime" class="datepicker" id="fechaMovilidad1" placeholder='Fecha Inicio'></td>
+                            
+                            <td><select id="timeMovilidad1" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeMovilidad1-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td>
+                                
+                            <td width="100"></td>
+                            
+                            <td><input type="datetime" class="datepicker" id="fechaMovilidad2" placeholder='Fecha Termino'></td>
+                            <td><select id="timeMovilidad2" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeMovilidad2-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                        Panel de Telegestion
+            ===================================================================================================== -->
+            <div id="pTimeChartTelegestion" class="big panel" style="display:block">
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                   onclick='$("#pTimeChartTelegestion").fadeOut()'>
+                        <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent" style="height: calc(100% - 125px)">
+                    <button id="verTablasTelegestion" style="position: absolute; right: 10px; width: 200px;">Ver Tablas</button>
+                    <p><label>Telegestion</label></p>
+                    <div class="labelError"  id="labelTelegestion"></div>
+                    <table>
+                        <tr>
+                            <td>Selecciona Parametro</td>
+                                <td><div><select class='selectPanel form-control' id='selectorParametroTelegestion'>
+                                            <option value="0">ACTIVE_POWER</option><option value="1">APPARENT_POWER</option>
+                                            <option value="2">CURRENT</option><option value="3">FREQUENCY</option>
+                                            <option value="4">POWER_FACTOR</option><option value="5">REACTIVE_POWER</option>
+                                            <option value="6">VOLTAGE</option>
+                               </select></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr><label>Consumo</label><img id="loadingTelegestion0" src="../recursos/icons/loadingPage.gif" width="30" height="30"></tr>
+                        <tr><div id="graficaTelegestionConsumo"></div></tr>
+                    </table>
+                    <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                    
+                    
+                </div>
+                
+                <div style="bottom: 10px; position:absolute">
+                    <table>
+                         <tr>
+                            <td><label>Fecha Inicio</label><td></td>
+                            <td><label>Fecha Fin</label>
+                        </tr>
+                        <tr>
+                            <td><input type="datetime" class="datepicker" id="fechaTelegestion1" placeholder='Fecha Inicio'></td>
+                            
+                            <!--td><select id="timeTelegestion1" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeTelegestion1-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td-->
+                                
+                            <td width="100"></td>
+                            
+                            <td><input type="datetime" class="datepicker" id="fechaTelegestion2" placeholder='Fecha Termino'></td>
+                            <!--td><select id="timeTelegestion2" class='selectPanel form-control'>
+                                <option value="0">01:00</option><option value="1">02:00</option><option value="2">03:00</option>
+                                <option value="3">04:00</option><option value="4">05:00</option><option value="5">06:00</option>
+                                <option value="6">07:00</option><option value="7">08:00</option><option value="8">09:00</option>
+                                <option value="9">10:00</option><option value="10">11:00</option><option value="11">12:00</option>
+                            </select></td>
+                            <td><select id="timeTelegestion2-2" class='selectPanel form-control'>
+                                <option value="0">AM</option><option value="1">PM</option>
+                                </select></td-->
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                        Panel Tablas
+            ===================================================================================================== -->
+            <div id="panelTablas" class="panel big">
+                <a class="btn btn-default btn-map closeButton" role="button" title="Cerrar" 
+                       onclick=' $("#panelTablas").fadeOut()'>
+                            <span class="glyphicon glyphicon-remove"></span>
+                </a>
+                <div class="panelContent">
+                    <table>
+                        <tr><label id="LabelTabla1"> TablaCompleta</label></tr>
+                        <tr><div id="tablaCompleta1" class="bigTable"></div></tr>
+                        <tr><button id="descargarTabla1" style="width: 100px">Descargar</button></tr>
+                    </table>
+                    <table>
+                        <tr><label id="LabelTabla2"> TablaCompleta</label></tr>
+                        <tr><div id="tablaCompleta2" class="bigTable"></div></tr>
+                        <tr><button id="descargarTabla2" style="width: 100px">Descargar</button></tr>
+                    </table>
+                    <table>
+                        <tr><label id="LabelTabla3"> TablaCompleta</label></tr>
+                        <tr><div id="tablaCompleta3" class="bigTable"></div></tr>
+                        <tr><button id="descargarTabla3" style="width: 100px">Descargar</button></tr>
+                    </table>
+                </div>
+            </div>
+        </div> <!-- Fin del Map -->
+        
+        
+        <div id="infopanel">
+            <div id="infopanel-content">
+                <h1>Celulares</h1> 
+                <p>Rastreo de Celulares</p>   
+                <div id="userType">dev</div>
+            </div>
+        </div>
+          <!-- =====================================================================================================
+                                        Left Panel
+            ===================================================================================================== -->
+        <div class="form-inline" id="left">
+            
+            <div id="botonesControl">
+                <table>
+                    <tr>
+                        <td><button id="showAmbiental">Ambiental</button></td>
+                        <td><button id="showSonido">Sonido</button></td>
+                        <td><button id="showObras">Telegestión</button></td>
+                        <td><button id="showMovilidad">Movilidad</button></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="top" id="LPObras">
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Infraestructura</label>
+                <table>
+                    <tr>
+                        <td><img src="data/icons/lamp.png" width="30" height="30" alt="Luces"></td>
+                        <td width="120">Luminarias</td>
+                        <td><label class="switch">
+                                    <input type="checkbox" id="capaLuces" checked>
+                                    <span class="slider"></span>
+                                </label></td>
+                    </tr>
+                     <tr>
+                        <td><img src="data/icons/lamp.png" width="30" height="30" alt="Luces"></td>
+                        <td width="120">Avenidas</td>
+                        <td><label class="switch">
+                                    <input type="checkbox" id="capaLucesTramos" checked>
+                                    <span class="slider"></span>
+                                </label></td>
+                    </tr><tr>
+                        <td><img src="data/icons/icons8-streets-50.png" width="30" height="30" alt="Calles"></td>
+                        <td width="120">Telegestion</td>
+                        <td><label class="switch">
+                                    <input type="checkbox" id="verTelegestion" checked>
+                                    <span class="slider"></span>
+                                </label></td>
+                    </tr>
+                </table>
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <button onclick="$('#pTimeChartTelegestion').fadeIn('slow')">Historial</button>
+                <table>
+                     <tr>
+                            <td>Selecciona Parametro</td>
+                                <td><div><select class='selectPanel form-control' id='selectorParametroTelegestionTR'>
+                                            <option value="0">ACTIVE_POWER</option><option value="1">APPARENT_POWER</option>
+                                            <option value="2">CURRENT</option><option value="3">FREQUENCY</option>
+                                            <option value="4">POWER_FACTOR</option><option value="5">VOLTAGE</option>
+                               </select></td>
+                        </tr>
+                    <tr>
+                        <td><label>Grafica Datos Actuales</label><img id="loadingTelegestionTR" src="../recursos/icons/loadingPage.gif" width="30" height="30"></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div id="graficaTelegestionTR"></div>
+            </div>
+            <!-- =====================================================================================================
+                                            Movilidad
+                ===================================================================================================== -->
+            <div class="top" id="LPMovilidad" >
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Movilidad</label>
+                <table>
+                    <tr>
+                        <td width="120">Sensores</td> 
+                        <td><label class="switch">
+                                    <input type="checkbox" id="cSensoresMovilidad" checked>
+                                    <span class="slider"></span>
+                                </label>
+                        </td><tr>
+                        <td width="120">Vectores</td> 
+                        <td><label class="switch">
+                                    <input type="checkbox" id="cSensoresMovilidadVectores" checked>
+                                    <span class="slider"></span>
+                                </label>
+                        </td>
+                    </tr><tr>
+                        <td width="120">Calles</td> 
+                        <td><label class="switch">
+                                    <input type="checkbox" id="capaCalles" checked>
+                                    <span class="slider"></span>
+                                </label>
+                        </td>
+                    </tr>
+                </table>
+                <button onclick='$("#pTimeChartMovilidad").fadeIn()' id="mostrarHistorialMovilidad">Historial</button>
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Niveles de servicio de tráfico</label>
+                <div id="tablaNivelesServicio"></div>
+                
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <table>
+                    <tr>
+                        <td>Seleccionar RID</td>
+                        <td><div><select class='selectPanel form-control' id='selectorRID'>
+                                <option value="0">315</option><option value="1">316</option>
+                            </select></td>
+                    </tr><tr>
+                        <td>Seleccionar Parametro</td>
+                        <td><div><select class='selectPanel form-control' id='movilidadParametroTR'>
+                                <option value="0">Velocidad</option><option value="1">Tiempo</option>
+                            </select></td>
+                        </tr><tr>
+                            <td><img id="loadingMovilidadTR" src="../recursos/icons/loadingPage.gif" width="30" height="30"></td>
+                        </tr>
+                </table>
+                <label>Grafica Tiempo Real</label>
+                <div id="graficaMovilidadTR"></div>
+                
+            </div>
+            <!-- =====================================================================================================
+                                           Sensores Sonido
+                ===================================================================================================== -->
+            <div class="top" id="LPSonido">
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Datos actuales de los Sensores de Sonido</label>
+                <table>
+                    <td><button onclick='$("#pTimeChartSensoresSonido").fadeIn()' id="mostrarHistorialSonido">Histórico</button></td>
+                </table>
+                <table>
+                    <td width="120">Elegir Sensor</td>
+                    <td><select class='selectPanel form-control' id='selectSensorSonido'>
+                            <option value='1'>Sensor 1</option>
+                        </select></td>
+                </table>
+                <div id="labelSonidoTR" class="labelError"></div>
+                <img id="loadingHistorialSonidoTR" src="../recursos/icons/loadingPage.gif" width="30" height="30">
+                <div>
+                    Nivel de sonido continuo LAeq
+                    <div id="sonidoUltimaHora0"></div>
+                    <div id="pieChartsonido0label"></div>
+                    <div id="pieChartsonido0"></div>
+                    
+                    <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                    Nivel de sonido continuo LCeq
+                    <div id="sonidoUltimaHora1"></div>
+                    <div id="pieChartsonido1label" ></div>
+                    <div id="pieChartsonido1"></div>
+                    
+                    <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                    Nivel de sonido continuo Leq
+                    <div id="sonidoUltimaHora2"></div>
+                    <div id="pieChartsonido2label" ></div>
+                    <div id="pieChartsonido2"></div>
+                </div>
+            </div>
+            <!-- =====================================================================================================
+                                           Sensor Ambiental
+                ===================================================================================================== -->
+            <div class="top" id="LPAmbiental" >
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Sensor ambiental</label>
+                <p>
+                <button onclick='$("#pTimeChartSensores").fadeIn()' id="mostrarHistorialAmbiental">Histórico</button>
+                <table>
+                    <tr>
+                        <td>Elegir Sensor</td>
+                        <td><select class='selectPanel form-control' id='selectSensorAmbiental'>
+                            </select></td>
+                    </tr><tr>
+                        <td>Selecciona Parámetro</td>
+                        <td><div><select class='selectPanel form-control' id='selectorParametroTR'>
+                            </select></td>
+                        </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>Temperatura:</td><td id="tempActual">23 C</td>
+                    </tr><tr>
+                        <td>Humedad:</td><td id="humActual">33 %</td>
+                    </tr><tr>
+                        <td>Presión Atmosférica</td><td id="presActual">7770 Pa</td>
+                    </tr><tr>
+                        <td>Direccion del viento</td><td id="direcActual"></td>
+                    </tr><tr>
+                        <td>Calidad del Aire</td><td><label id="calActual">Buena</label></td>
+                    </tr><tr>
+                        <td>Calidad del Parámetro</td><td><label id="calActualParametro">Sin Definir</label></td>
+                    </tr>
+                </table>
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <img id="loadingAmbientalTR" src="../recursos/icons/loadingPage.gif" width="30" height="30">
+                <div id="labelAmbientalTR"></div>
+                <div id="labelAmbientalError" class="labelError"></div>
+                <div id="graficaAmbientalTR"></div>
+                <hr align="left" noshade="noshade" size="2" width="95%" style="color: #bcdb28;"/>
+                <label>Semáforo de la calidad del aire</label>
+                <table>
+                    <!--tr>
+                        <td>Lectura Actual:</td>
+                        <td><label id="lecturaParametroActual"></label> <label id="unidadMedidaActual"></label></td>
+                    </tr><tr>
+                        <td>Maxima:</td>
+                        <td> <label id="maximoParametroActual"></label> <label id="unidadMedidaMaximo"></label></td>
+                    </tr--><tr>
+                        <td><img src="data/icons/ambiental/aire1.png" width="30" height="30"></td>
+                        <td>Buena</td>
+                    </tr><tr>
+                        <td><img src="data/icons/ambiental/aire2.png" width="30" height="30"></td>
+                        <td>Regular</td>
+                    </tr><tr>
+                        <td><img src="data/icons/ambiental/aire3.png" width="30" height="30"></td>
+                        <td>Mala</td>
+                    </tr><tr>
+                        <td><img src="data/icons/ambiental/aire4.png" width="30" height="30"></td>
+                        <td>Muy Mala</td>
+                    </tr><tr>
+                        <td><img src="data/icons/ambiental/aire5.png" width="30" height="30"></td>
+                        <td>Extremadamente Mala</td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+        <script src="../../samples/template/init.js" type="text/javascript"></script>
+        <script src="../../samples/lib/Promise.js" type="text/javascript"></script>
+        <script src="../../samples/lib/requirejs/require-2.3.5.js" type="text/javascript"></script>
+        <script data-dojo-config="async: 1" src="js/run.js" type="text/javascript"></script>
+    </body>    
+    
+    
+
+</html>

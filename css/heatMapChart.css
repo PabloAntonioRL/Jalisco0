@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/05/2019, 07:37:42 PM
+    Author     : Pablo
+*/
+
+.heatMapChart {
+    top: 80px;
+    bottom: 25px;
+    right: 25px;
+    left: 40px;
+    width: calc(480px - 40px - 25px);
+    height: calc(450px - 50px - 25px);
+    
+    text-align: left;
+    font-size: 22px;
+    
+}
+
+
+.columnHM {
+    color: white;
+    font-size: 15px;
+    text-orientation: upright;
+}

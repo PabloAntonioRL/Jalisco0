@@ -1,0 +1,20 @@
+{
+    "useUrl": "https://cileon.aggme.tech/InterSect/serviciosrs/monitor/1.0",
+
+    "fusionServer": "http://localhost:8081",
+    
+    "baseUrl": "https://cileon.aggme.tech/InterSect/serviciosrs/monitor/1.0",
+    "serverUrl": "/InterSect/serviciosrs/monitor/1.0",
+    
+    "googleMap": false,
+    "mapOptions": {
+        "includeBackground": false, 
+        "includeElevation": false, 
+        "includeLayerControl": false,
+        "includeMouseLocation": true,
+        "includeBingLayer": ["Aerial", "Road"], 
+        "openLayerControl": true,
+        "useUrlQueryParameters": true
+    },
+    "mapReference": "EPSG:4978" 
+}

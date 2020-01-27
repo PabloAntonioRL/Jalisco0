@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "Name": "ambiental1", "description": null }, "geometry": { "type": "Point", "coordinates": [ -101.653143336354006, 21.114439189673909 ] } },
+{ "type": "Feature", "id": 2, "properties": { "Name": "ambiental2", "description": null }, "geometry": { "type": "Point", "coordinates": [ -101.6565298911772, 21.116560887043921 ] } },
+{ "type": "Feature", "id": 3, "properties": { "Name": "ambiental3", "description": null }, "geometry": { "type": "Point", "coordinates": [ -101.656331496380403, 21.108968190774512 ] } }
+]
+}

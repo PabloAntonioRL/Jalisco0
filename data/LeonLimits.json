@@ -1,0 +1,7 @@
+{"type": "FeatureCollection", "name": "Datos","crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ 
+	"type": "Feature", "id": "1", "properties": {},
+	"geometry":{"type":"Polygon", "coordinates":[[[-101.80101604972198,21.339929516664647],[-101.37788057285069,21.289165673218694],[-101.43254215753599,20.864701036059994],[-101.84479884295912,20.906315897614316]]]}
+}
+]}

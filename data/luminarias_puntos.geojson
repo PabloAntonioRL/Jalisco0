@@ -1,0 +1,5452 @@
+{
+  "type": "FeatureCollection",
+  "name": "luminarias_putos",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 02  Col. CENTRO",
+        "description": "Num: 1<br>Coordenada: (21.1247,-101.680333)",
+        "timestamp": null,
+        "Coordenada": "(21.1247,-101.680333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.680333,
+          21.1247,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 03 ",
+        "description": "Num: 2<br>Coordenada: (21.126217,-101.6843)",
+        "timestamp": null,
+        "Coordenada": "(21.126217,-101.6843)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6843,
+          21.126217,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 04 EQ 1824 ",
+        "description": "Num: 3<br>Coordenada: (21.123567,-101.676667)",
+        "timestamp": null,
+        "Coordenada": "(21.123567,-101.676667)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.676667,
+          21.123567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A05",
+        "description": "Num: 4<br>Coordenada: (21.126310, -101.683757)",
+        "timestamp": null,
+        "Coordenada": "(21.126310, -101.683757)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.683757,
+          21.12631,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 06 ",
+        "description": "Num: 5<br>Coordenada: (21.123467,-101.677117)",
+        "timestamp": null,
+        "Coordenada": "(21.123467,-101.677117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.677117,
+          21.123467,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 07 ",
+        "description": "Num: 6<br>Coordenada: (21.12995,-101.687467)",
+        "timestamp": null,
+        "Coordenada": "(21.12995,-101.687467)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.687467,
+          21.12995,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 08 ",
+        "description": "Num: 7<br>Coordenada: (21.122567,-101.67425)",
+        "timestamp": null,
+        "Coordenada": "(21.122567,-101.67425)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67425,
+          21.122567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 09 ",
+        "description": "Num: 8<br>Coordenada: (21.127383,-101.686183)",
+        "timestamp": null,
+        "Coordenada": "(21.127383,-101.686183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.686183,
+          21.127383,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 10 ",
+        "description": "Num: 9<br>Coordenada: (21.1229,-101.675417)",
+        "timestamp": null,
+        "Coordenada": "(21.1229,-101.675417)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675417,
+          21.1229,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 11 ",
+        "description": "Num: 10<br>Coordenada: (21.1299,-101.687433)",
+        "timestamp": null,
+        "Coordenada": "(21.1299,-101.687433)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.687433,
+          21.1299,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 12 ",
+        "description": "Num: 11<br>Coordenada: (21.121933,-101.672367)",
+        "timestamp": null,
+        "Coordenada": "(21.121933,-101.672367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.672367,
+          21.121933,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 13 ",
+        "description": "Num: 12<br>Coordenada: (21.131833,-101.688117)",
+        "timestamp": null,
+        "Coordenada": "(21.131833,-101.688117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.688117,
+          21.131833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 14 ",
+        "description": "Num: 13<br>Coordenada: (21.121183,-101.67125)",
+        "timestamp": null,
+        "Coordenada": "(21.121183,-101.67125)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67125,
+          21.121183,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 15 ",
+        "description": "Num: 14<br>Coordenada: (21.134267,-101.687767)",
+        "timestamp": null,
+        "Coordenada": "(21.134267,-101.687767)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.687767,
+          21.134267,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 16 ",
+        "description": "Num: 15<br>Coordenada: (21.1212,-101.67025)",
+        "timestamp": null,
+        "Coordenada": "(21.1212,-101.67025)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67025,
+          21.1212,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 17 ",
+        "description": "Num: 16<br>Coordenada: (21.135633,-101.687583)",
+        "timestamp": null,
+        "Coordenada": "(21.135633,-101.687583)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.687583,
+          21.135633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 18 ",
+        "description": "Num: 17<br>Coordenada: (21.120017,-101.668017)",
+        "timestamp": null,
+        "Coordenada": "(21.120017,-101.668017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.668017,
+          21.120017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 19 ",
+        "description": "Num: 18<br>Coordenada: (21.138467,-101.68665)",
+        "timestamp": null,
+        "Coordenada": "(21.138467,-101.68665)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68665,
+          21.138467,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 20  ",
+        "description": "Num: 19<br>Coordenada: (21.120833,-101.66955)",
+        "timestamp": null,
+        "Coordenada": "(21.120833,-101.66955)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.66955,
+          21.120833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 22  ",
+        "description": "Num: 20<br>Coordenada: (21.11895,-101.664567)",
+        "timestamp": null,
+        "Coordenada": "(21.11895,-101.664567)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664567,
+          21.11895,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 23 ",
+        "description": "Num: 21<br>Coordenada: (21.145042,-101.68529)",
+        "timestamp": null,
+        "Coordenada": "(21.145042,-101.68529)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68529,
+          21.145042,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 23 A ",
+        "description": "Num: 22<br>Coordenada: (21.144391,-101.685655)",
+        "timestamp": null,
+        "Coordenada": "(21.144391,-101.685655)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.685655,
+          21.144391,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 24 ",
+        "description": "Num: 23<br>Coordenada: (21.11945,-101.665217)",
+        "timestamp": null,
+        "Coordenada": "(21.11945,-101.665217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.665217,
+          21.11945,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 25 ",
+        "description": "Num: 24<br>Coordenada: (21.144983,-101.68535)",
+        "timestamp": null,
+        "Coordenada": "(21.144983,-101.68535)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68535,
+          21.144983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 26 ",
+        "description": "Num: 25<br>Coordenada: (21.118,-101.6612)",
+        "timestamp": null,
+        "Coordenada": "(21.118,-101.6612)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6612,
+          21.118,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 28  ",
+        "description": "Num: 26<br>Coordenada: (21.119117,-101.66365)",
+        "timestamp": null,
+        "Coordenada": "(21.119117,-101.66365)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.66365,
+          21.119117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 29 ",
+        "description": "Num: 27<br>Coordenada: (21.15745,-101.6837)",
+        "timestamp": null,
+        "Coordenada": "(21.15745,-101.6837)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6837,
+          21.15745,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 30 ",
+        "description": "Num: 28<br>Coordenada: (21.11643,-101.656811)",
+        "timestamp": null,
+        "Coordenada": "(21.11643,-101.656811)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656811,
+          21.11643,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 31 ",
+        "description": "Num: 29<br>Coordenada: (21.162333,-101.6837)",
+        "timestamp": null,
+        "Coordenada": "(21.162333,-101.6837)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6837,
+          21.162333,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 32 ",
+        "description": "Num: 30<br>Coordenada: (21.118367,-101.661667)",
+        "timestamp": null,
+        "Coordenada": "(21.118367,-101.661667)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.661667,
+          21.118367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 33 LOS CARCAMOS ",
+        "description": "Num: 31<br>Coordenada: (21.167833,-101.68535)",
+        "timestamp": null,
+        "Coordenada": "(21.167833,-101.68535)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68535,
+          21.167833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 34 ",
+        "description": "Num: 32<br>Coordenada: (21.116417,-101.656769)",
+        "timestamp": null,
+        "Coordenada": "(21.116417,-101.656769)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656769,
+          21.116417,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 36 ",
+        "description": "Num: 33<br>Coordenada: (21.117683,-101.659467)",
+        "timestamp": null,
+        "Coordenada": "(21.117683,-101.659467)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.659467,
+          21.117683,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 38 ",
+        "description": "Num: 34<br>Coordenada: (21.114067,-101.651683)",
+        "timestamp": null,
+        "Coordenada": "(21.114067,-101.651683)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.651683,
+          21.114067,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 40 ",
+        "description": "Num: 35<br>Coordenada: (21.111783,-101.648217)",
+        "timestamp": null,
+        "Coordenada": "(21.111783,-101.648217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.648217,
+          21.111783,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 42 ",
+        "description": "Num: 36<br>Coordenada: (21.111783,-101.648183)",
+        "timestamp": null,
+        "Coordenada": "(21.111783,-101.648183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.648183,
+          21.111783,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 44 ",
+        "description": "Num: 37<br>Coordenada: (21.107783,-101.643183)",
+        "timestamp": null,
+        "Coordenada": "(21.107783,-101.643183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.643183,
+          21.107783,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 46 ",
+        "description": "Num: 38<br>Coordenada: (21.107767,-101.643167)",
+        "timestamp": null,
+        "Coordenada": "(21.107767,-101.643167)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.643167,
+          21.107767,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 48 ",
+        "description": "Num: 39<br>Coordenada: (21.104967,-101.6389)",
+        "timestamp": null,
+        "Coordenada": "(21.104967,-101.6389)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6389,
+          21.104967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 50 ",
+        "description": "Num: 40<br>Coordenada: (21.101717,-101.634267)",
+        "timestamp": null,
+        "Coordenada": "(21.101717,-101.634267)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.634267,
+          21.101717,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 52 ",
+        "description": "Num: 41<br>Coordenada: (21.1017,-101.6343)",
+        "timestamp": null,
+        "Coordenada": "(21.1017,-101.6343)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6343,
+          21.1017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A 54 ",
+        "description": "Num: 42<br>Coordenada: (21.098717,-101.631183)",
+        "timestamp": null,
+        "Coordenada": "(21.098717,-101.631183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.631183,
+          21.098717,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A21 ",
+        "description": "Num: 43<br>Coordenada: (21.140283,-101.686583)",
+        "timestamp": null,
+        "Coordenada": "(21.140283,-101.686583)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.686583,
+          21.140283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "A. L. MATEOS A27 ",
+        "description": "Num: 44<br>Coordenada: (21.14985,-101.684733)",
+        "timestamp": null,
+        "Coordenada": "(21.14985,-101.684733)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.684733,
+          21.14985,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A02 ",
+        "description": "Num: 45<br>Coordenada: (21.091883,-101.623017)",
+        "timestamp": null,
+        "Coordenada": "(21.091883,-101.623017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.623017,
+          21.091883,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A04 ",
+        "description": "Num: 46<br>Coordenada: (21.088183,-101.6181)",
+        "timestamp": null,
+        "Coordenada": "(21.088183,-101.6181)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6181,
+          21.088183,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A06 ",
+        "description": "Num: 47<br>Coordenada: (21.08855,-101.618317)",
+        "timestamp": null,
+        "Coordenada": "(21.08855,-101.618317)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.618317,
+          21.08855,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A08 ",
+        "description": "Num: 48<br>Coordenada: (21.085833,-101.615217)",
+        "timestamp": null,
+        "Coordenada": "(21.085833,-101.615217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.615217,
+          21.085833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A10 ",
+        "description": "Num: 49<br>Coordenada: (21.0825,-101.611083)",
+        "timestamp": null,
+        "Coordenada": "(21.0825,-101.611083)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.611083,
+          21.0825,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A12 ",
+        "description": "Num: 50<br>Coordenada: (21.079017,-101.60675)",
+        "timestamp": null,
+        "Coordenada": "(21.079017,-101.60675)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.60675,
+          21.079017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A14 ",
+        "description": "Num: 51<br>Coordenada: (21.074983,-101.6017)",
+        "timestamp": null,
+        "Coordenada": "(21.074983,-101.6017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6017,
+          21.074983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A16 ",
+        "description": "Num: 52<br>Coordenada: (21.07095,-101.596717)",
+        "timestamp": null,
+        "Coordenada": "(21.07095,-101.596717)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.596717,
+          21.07095,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A18 ",
+        "description": "Num: 53<br>Coordenada: (21.067067,-101.5919)",
+        "timestamp": null,
+        "Coordenada": "(21.067067,-101.5919)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5919,
+          21.067067,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A20",
+        "description": "Num: 54<br>Coordenada: 21.120833, -101.66955",
+        "timestamp": null,
+        "Coordenada": "21.120833, -101.66955"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.66955,
+          21.120833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A22",
+        "description": "Num: 55<br>Coordenada: 21.11895, -101.664567",
+        "timestamp": null,
+        "Coordenada": "21.11895, -101.664567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664567,
+          21.11895,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A24",
+        "description": "Num: 56<br>Coordenada: 21.11945, -101.665217",
+        "timestamp": null,
+        "Coordenada": "21.11945, -101.665217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.665217,
+          21.11945,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A26 ",
+        "description": "Num: 57<br>Coordenada: (21.059917,-101.582983)",
+        "timestamp": null,
+        "Coordenada": "(21.059917,-101.582983)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.582983,
+          21.059917,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A28 ",
+        "description": "Num: 58<br>Coordenada: (21.05925,-101.581867)",
+        "timestamp": null,
+        "Coordenada": "(21.05925,-101.581867)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.581867,
+          21.05925,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A30",
+        "description": "Num: 59<br>Coordenada: 21.11643, -101.656811",
+        "timestamp": null,
+        "Coordenada": "21.11643, -101.656811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656811,
+          21.11643,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A40 PTE. STA. ANA LADO SUR ",
+        "description": "Num: 60<br>Coordenada: (21.0473,-101.56765)",
+        "timestamp": null,
+        "Coordenada": "(21.0473,-101.56765)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.56765,
+          21.0473,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A42 PTE. STA. ANA LADO NORTE ",
+        "description": "Num: 61<br>Coordenada: (21.04705,-101.566733)",
+        "timestamp": null,
+        "Coordenada": "(21.04705,-101.566733)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.566733,
+          21.04705,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A46 PTE. STA. ANA LADO NORTE ",
+        "description": "Num: 62<br>Coordenada: (21.0462,-101.56565)",
+        "timestamp": null,
+        "Coordenada": "(21.0462,-101.56565)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.56565,
+          21.0462,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A48 PTE. STA. ANA LADO SUR ",
+        "description": "Num: 63<br>Coordenada: (21.043333,-101.56275)",
+        "timestamp": null,
+        "Coordenada": "(21.043333,-101.56275)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.56275,
+          21.043333,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "AEROPUERTO A50 PTE. STA. ANA LADO NORTE ",
+        "description": "Num: 64<br>Coordenada: (21.043583,-101.56245)",
+        "timestamp": null,
+        "Coordenada": "(21.043583,-101.56245)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.56245,
+          21.043583,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A09",
+        "description": "Num: 69<br>Coordenada: (21.135493,-101.720556)",
+        "timestamp": null,
+        "Coordenada": "(21.135493,-101.720556)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.720556,
+          21.135493,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A11",
+        "description": "Num: 70<br>Coordenada: (21.138489,-101.724262)",
+        "timestamp": null,
+        "Coordenada": "(21.138489,-101.724262)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.724262,
+          21.138489,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A13",
+        "description": "Num: 71<br>Coordenada: (21.146735,-101.727339)",
+        "timestamp": null,
+        "Coordenada": "(21.146735,-101.727339)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.727339,
+          21.146735,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A15",
+        "description": "Num: 72<br>Coordenada: (21.152926,-101.729682)",
+        "timestamp": null,
+        "Coordenada": "(21.152926,-101.729682)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.729682,
+          21.152926,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A17",
+        "description": "Num: 73<br>Coordenada: (21.158643,-101.731785)",
+        "timestamp": null,
+        "Coordenada": "(21.158643,-101.731785)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.731785,
+          21.158643,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A19",
+        "description": "Num: 74<br>Coordenada: (21.153357, -101.730033)",
+        "timestamp": null,
+        "Coordenada": "(21.153357, -101.730033)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.730033,
+          21.153357,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A21",
+        "description": "Num: 75<br>Coordenada: (21.158777, -101.732129)",
+        "timestamp": null,
+        "Coordenada": "(21.158777, -101.732129)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.732129,
+          21.158777,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A23",
+        "description": "Num: 76<br>Coordenada: (21.166676, -101.735596)",
+        "timestamp": null,
+        "Coordenada": "(21.166676, -101.735596)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.735596,
+          21.166676,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "BLVD. SAN JUAN BOSCO A25",
+        "description": "Num: 77<br>Coordenada: (21.177464, -101.740885)",
+        "timestamp": null,
+        "Coordenada": "(21.177464, -101.740885)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.740885,
+          21.177464,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A01 FTE 202 ",
+        "description": "Num: 78<br>Coordenada: (21.147717,-101.675217)",
+        "timestamp": null,
+        "Coordenada": "(21.147717,-101.675217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675217,
+          21.147717,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A02 FTE DEP. DEL COECILLO ",
+        "description": "Num: 79<br>Coordenada: (21.145117,-101.661983)",
+        "timestamp": null,
+        "Coordenada": "(21.145117,-101.661983)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.661983,
+          21.145117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A03 Y SALIDA DE LOS GOMEZ ",
+        "description": "Num: 80<br>Coordenada: (21.147517,-101.680867)",
+        "timestamp": null,
+        "Coordenada": "(21.147517,-101.680867)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.680867,
+          21.147517,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A04 FTE COL. LOS ANGELES ",
+        "description": "Num: 81<br>Coordenada: (21.144068,-101.65548)",
+        "timestamp": null,
+        "Coordenada": "(21.144068,-101.65548)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65548,
+          21.144068,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A05",
+        "description": "Num: <br>Coordenada: (21.147588, -101.686508)",
+        "timestamp": null,
+        "Coordenada": "(21.147588, -101.686508)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.686508,
+          21.147588,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A06",
+        "description": "Num: <br>Coordenada: (21.148619, -101.689330)",
+        "timestamp": null,
+        "Coordenada": "(21.148619, -101.689330)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68933,
+          21.148619,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A07",
+        "description": "Num: <br>Coordenada: (21.149920, -101.692420)",
+        "timestamp": null,
+        "Coordenada": "(21.149920, -101.692420)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.69242,
+          21.14992,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A08",
+        "description": "Num: <br>Coordenada: (21.151741, -101.694684)",
+        "timestamp": null,
+        "Coordenada": "(21.151741, -101.694684)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.694684,
+          21.151741,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A09 FTE 1507 ",
+        "description": "Num: <br>Coordenada: (21.154617,-101.700017)",
+        "timestamp": null,
+        "Coordenada": "(21.154617,-101.700017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.700017,
+          21.154617,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A15 FTE 2320 ",
+        "description": "Num: <br>Coordenada: (21.152983,-101.71495)",
+        "timestamp": null,
+        "Coordenada": "(21.152983,-101.71495)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.71495,
+          21.152983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A17 2600 ",
+        "description": "Num: <br>Coordenada: (21.15175,-101.718383)",
+        "timestamp": null,
+        "Coordenada": "(21.15175,-101.718383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.718383,
+          21.15175,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A19",
+        "description": "Num: <br>Coordenada: (21.155384, -101.708525)",
+        "timestamp": null,
+        "Coordenada": "(21.155384, -101.708525)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.708525,
+          21.155384,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A21",
+        "description": "Num: <br>Coordenada: (21.154328, -101.711304)",
+        "timestamp": null,
+        "Coordenada": "(21.154328, -101.711304)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.711304,
+          21.154328,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A23 ",
+        "description": "Num: <br>Coordenada: (21.153117,-101.72577)",
+        "timestamp": null,
+        "Coordenada": "(21.153117,-101.72577)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.72577,
+          21.153117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPESTRE A25 ",
+        "description": "Num: <br>Coordenada: 21.1526812, -101.7278305",
+        "timestamp": null,
+        "Coordenada": "21.1526812, -101.7278305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7278305,
+          21.1526812,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A01 FTE. C. DE CONVENCIONES ",
+        "description": "Num: 83<br>Coordenada: (21.113233,-101.653817)",
+        "timestamp": null,
+        "Coordenada": "(21.113233,-101.653817)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.653817,
+          21.113233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A02 FTE. 205 ",
+        "description": "Num: 84<br>Coordenada: (21.117333,-101.65185)",
+        "timestamp": null,
+        "Coordenada": "(21.117333,-101.65185)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65185,
+          21.117333,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A03 FTE. EXPLORA ",
+        "description": "Num: 85<br>Coordenada: (21.109,-101.656383)",
+        "timestamp": null,
+        "Coordenada": "(21.109,-101.656383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656383,
+          21.109,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A04 FTE. 807 ",
+        "description": "Num: 86<br>Coordenada: (21.1219,-101.6497)",
+        "timestamp": null,
+        "Coordenada": "(21.1219,-101.6497)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6497,
+          21.1219,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A05 ",
+        "description": "Num: 87<br>Coordenada: (21.104367,-101.659117)",
+        "timestamp": null,
+        "Coordenada": "(21.104367,-101.659117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.659117,
+          21.104367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A06 FTE. 1710 ",
+        "description": "Num: 88<br>Coordenada: (21.126817,-101.647317)",
+        "timestamp": null,
+        "Coordenada": "(21.126817,-101.647317)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.647317,
+          21.126817,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A07 FTE. CAPILLA ETERNITY ",
+        "description": "Num: 89<br>Coordenada: (21.100467,-101.6616)",
+        "timestamp": null,
+        "Coordenada": "(21.100467,-101.6616)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6616,
+          21.100467,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A08 FTE. 1511 ",
+        "description": "Num: <br>Coordenada: (21.129733,-101.645967)",
+        "timestamp": null,
+        "Coordenada": "(21.129733,-101.645967)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.645967,
+          21.129733,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A10 FTE. 3122 ",
+        "description": "Num: <br>Coordenada: (21.133983,-101.64385)",
+        "timestamp": null,
+        "Coordenada": "(21.133983,-101.64385)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64385,
+          21.133983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A12 FTE. 3148 ",
+        "description": "Num: <br>Coordenada: (21.135733,-101.64275)",
+        "timestamp": null,
+        "Coordenada": "(21.135733,-101.64275)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64275,
+          21.135733,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A14 FTE. 3202 ",
+        "description": "Num: <br>Coordenada: (21.137567,-101.641583)",
+        "timestamp": null,
+        "Coordenada": "(21.137567,-101.641583)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.641583,
+          21.137567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A16 FTE. 3262 ",
+        "description": "Num: <br>Coordenada: (21.13975,-101.64035)",
+        "timestamp": null,
+        "Coordenada": "(21.13975,-101.64035)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64035,
+          21.13975,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A18 FTE. 3411 ",
+        "description": "Num: <br>Coordenada: (21.141567,-101.638617)",
+        "timestamp": null,
+        "Coordenada": "(21.141567,-101.638617)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.638617,
+          21.141567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A20 FTE. 3608 ",
+        "description": "Num: <br>Coordenada: (21.144067,-101.636383)",
+        "timestamp": null,
+        "Coordenada": "(21.144067,-101.636383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.636383,
+          21.144067,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "FCO. VILLA A22 FTE. 3942 ",
+        "description": "Num: <br>Coordenada: (21.145467,-101.63475)",
+        "timestamp": null,
+        "Coordenada": "(21.145467,-101.63475)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.63475,
+          21.145467,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A02 FTE 213 ",
+        "description": "Num: 90<br>Coordenada: (21.135483,-101.677067)",
+        "timestamp": null,
+        "Coordenada": "(21.135483,-101.677067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.677067,
+          21.135483,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A04 FTE 701 ",
+        "description": "Num: 91<br>Coordenada: (21.140283,-101.675117)",
+        "timestamp": null,
+        "Coordenada": "(21.140283,-101.675117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675117,
+          21.140283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A06 FTE 1207 ",
+        "description": "Num: 92<br>Coordenada: (21.144667,-101.673183)",
+        "timestamp": null,
+        "Coordenada": "(21.144667,-101.673183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.673183,
+          21.144667,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A08 FTE 1805 ",
+        "description": "Num: 93<br>Coordenada: (21.149283,-101.6709)",
+        "timestamp": null,
+        "Coordenada": "(21.149283,-101.6709)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6709,
+          21.149283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A10 FTE 1080 ",
+        "description": "Num: 94<br>Coordenada: (21.156278,-101.667679)",
+        "timestamp": null,
+        "Coordenada": "(21.156278,-101.667679)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.667679,
+          21.156278,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A12 FTE 2223 TELMEX ",
+        "description": "Num: 95<br>Coordenada: (21.157483,-101.667333)",
+        "timestamp": null,
+        "Coordenada": "(21.157483,-101.667333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.667333,
+          21.157483,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A14 FTE 2507 ",
+        "description": "Num: 96<br>Coordenada: (21.161017,-101.665367)",
+        "timestamp": null,
+        "Coordenada": "(21.161017,-101.665367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.665367,
+          21.161017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A16 FTE 2418 ",
+        "description": "Num: 97<br>Coordenada: (21.16645,-101.664233)",
+        "timestamp": null,
+        "Coordenada": "(21.16645,-101.664233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664233,
+          21.16645,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A18 FTE 2702 ",
+        "description": "Num: 98<br>Coordenada: (21.169667,-101.6642)",
+        "timestamp": null,
+        "Coordenada": "(21.169667,-101.6642)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6642,
+          21.169667,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A20 JTO PUENTE LIB MORELOS ",
+        "description": "Num: <br>Coordenada: (21.173633,-101.664)",
+        "timestamp": null,
+        "Coordenada": "(21.173633,-101.664)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664,
+          21.173633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A22 JTO PUENTE LIB MORELOS ",
+        "description": "Num: <br>Coordenada: (21.17365,-101.663983)",
+        "timestamp": null,
+        "Coordenada": "(21.17365,-101.663983)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.663983,
+          21.17365,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A24 FTE 4707 ",
+        "description": "Num: <br>Coordenada: (21.177633,-101.6641)",
+        "timestamp": null,
+        "Coordenada": "(21.177633,-101.6641)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6641,
+          21.177633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A26 FTE 5609 ",
+        "description": "Num: <br>Coordenada: (21.181367,-101.664117)",
+        "timestamp": null,
+        "Coordenada": "(21.181367,-101.664117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664117,
+          21.181367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A28 FTE 6403 ",
+        "description": "Num: <br>Coordenada: (21.185967,-101.6641)",
+        "timestamp": null,
+        "Coordenada": "(21.185967,-101.6641)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6641,
+          21.185967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A30 FTE 6646 ",
+        "description": "Num: <br>Coordenada: (21.190033,-101.664583)",
+        "timestamp": null,
+        "Coordenada": "(21.190033,-101.664583)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664583,
+          21.190033,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A32 FTE 6822 LOS CASTILLOS ",
+        "description": "Num: <br>Coordenada: (21.193817,-101.666283)",
+        "timestamp": null,
+        "Coordenada": "(21.193817,-101.666283)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.666283,
+          21.193817,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HIDALGO A34 FTE 7105 LOS CASTILLOS ",
+        "description": "Num: <br>Coordenada: (21.197317,-101.6693)",
+        "timestamp": null,
+        "Coordenada": "(21.197317,-101.6693)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6693,
+          21.197317,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HILARIO MEDINA A02 FTE 301 ",
+        "description": "Num: 99<br>Coordenada: (21.12035,-101.662333)",
+        "timestamp": null,
+        "Coordenada": "(21.12035,-101.662333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.662333,
+          21.12035,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HILARIO MEDINA A04 FTE 526 ",
+        "description": "Num: 100<br>Coordenada: 21.1250689, -101.6613524",
+        "timestamp": null,
+        "Coordenada": "21.1250689, -101.6613524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6613524,
+          21.1250689,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HILARIO MEDINA A06 FTE 528 ",
+        "description": "Num: 101<br>Coordenada: 21.1250611, -101.6612969",
+        "timestamp": null,
+        "Coordenada": "21.1250611, -101.6612969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6612969,
+          21.1250611,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HILARIO MEDINA A08 FTE 580 ",
+        "description": "Num: 102<br>Coordenada: (21.1291,-101.660383)",
+        "timestamp": null,
+        "Coordenada": "(21.1291,-101.660383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.660383,
+          21.1291,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A01 FTE 501 ",
+        "description": "Num: 103<br>Coordenada: (21.109583,-101.677033)",
+        "timestamp": null,
+        "Coordenada": "(21.109583,-101.677033)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.677033,
+          21.109583,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A03 FTE 648 ",
+        "description": "Num: 104<br>Coordenada: (21.104883,-101.6784)",
+        "timestamp": null,
+        "Coordenada": "(21.104883,-101.6784)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6784,
+          21.104883,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A05 FTE 650 ",
+        "description": "Num: 105<br>Coordenada: (21.1049,-101.678433)",
+        "timestamp": null,
+        "Coordenada": "(21.1049,-101.678433)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.678433,
+          21.1049,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A07 FTE 1405 ",
+        "description": "Num: 106<br>Coordenada: (21.098017,-101.679333)",
+        "timestamp": null,
+        "Coordenada": "(21.098017,-101.679333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679333,
+          21.098017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A09 FTE 1407 ",
+        "description": "Num: 107<br>Coordenada: (21.09805,-101.679433)",
+        "timestamp": null,
+        "Coordenada": "(21.09805,-101.679433)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679433,
+          21.09805,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A11 FTE 2209 ",
+        "description": "Num: 108<br>Coordenada: (21.093,-101.679283)",
+        "timestamp": null,
+        "Coordenada": "(21.093,-101.679283)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679283,
+          21.093,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A13 FTE 2420 ",
+        "description": "Num: 109<br>Coordenada: (21.088967,-101.6795)",
+        "timestamp": null,
+        "Coordenada": "(21.088967,-101.6795)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6795,
+          21.088967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A15 FTE 2442 ",
+        "description": "Num: 110<br>Coordenada: (21.08735,-101.679567)",
+        "timestamp": null,
+        "Coordenada": "(21.08735,-101.679567)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679567,
+          21.08735,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A17 KM 2.5 ",
+        "description": "Num: 111<br>Coordenada: (21.08235,-101.680017)",
+        "timestamp": null,
+        "Coordenada": "(21.08235,-101.680017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.680017,
+          21.08235,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A19 FTE A PLAZA ALDAMA ",
+        "description": "Num: 112<br>Coordenada: (21.075767,-101.681633)",
+        "timestamp": null,
+        "Coordenada": "(21.075767,-101.681633)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.681633,
+          21.075767,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "HNOS ALDAMA A21 FTE GASOLINERA ",
+        "description": "Num: 113<br>Coordenada: (21.068083,-101.6839)",
+        "timestamp": null,
+        "Coordenada": "(21.068083,-101.6839)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6839,
+          21.068083,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A01 1600 SUR ",
+        "description": "Num: 114<br>Coordenada: (21.152133,-101.67285)",
+        "timestamp": null,
+        "Coordenada": "(21.152133,-101.67285)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67285,
+          21.152133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A02 1800 NTE ",
+        "description": "Num: 115<br>Coordenada: (21.150383,-101.665933)",
+        "timestamp": null,
+        "Coordenada": "(21.150383,-101.665933)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.665933,
+          21.150383,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A03 1600 NTE ",
+        "description": "Num: 116<br>Coordenada: (21.151883,-101.673383)",
+        "timestamp": null,
+        "Coordenada": "(21.151883,-101.673383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.673383,
+          21.151883,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A04 1800 SUR ",
+        "description": "Num: 117<br>Coordenada: (21.149883,-101.665367)",
+        "timestamp": null,
+        "Coordenada": "(21.149883,-101.665367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.665367,
+          21.149883,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A05 1496 SUR ",
+        "description": "Num: 118<br>Coordenada: (21.154233,-101.6809)",
+        "timestamp": null,
+        "Coordenada": "(21.154233,-101.6809)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6809,
+          21.154233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A06 2000 NTE ",
+        "description": "Num: 119<br>Coordenada: 21.1481561, -101.6590962",
+        "timestamp": null,
+        "Coordenada": "21.1481561, -101.6590962"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6590962,
+          21.1481561,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A07 1496 NTE ",
+        "description": "Num: 120<br>Coordenada: (21.153917,-101.681067)",
+        "timestamp": null,
+        "Coordenada": "(21.153917,-101.681067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.681067,
+          21.153917,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A08 2000 SUR ",
+        "description": "Num: 121<br>Coordenada: (21.148117,-101.65915)",
+        "timestamp": null,
+        "Coordenada": "(21.148117,-101.65915)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65915,
+          21.148117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A09 FTE 1496 NTE ",
+        "description": "Num: 122<br>Coordenada: (21.1541,-101.6809)",
+        "timestamp": null,
+        "Coordenada": "(21.1541,-101.6809)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6809,
+          21.1541,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A10 2200 NTE ",
+        "description": "Num: 123<br>Coordenada: (21.147083,-101.653633)",
+        "timestamp": null,
+        "Coordenada": "(21.147083,-101.653633)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.653633,
+          21.147083,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A11 Y A. L. M. FTE 920 ",
+        "description": "Num: 124<br>Coordenada: (21.1554,-101.685883)",
+        "timestamp": null,
+        "Coordenada": "(21.1554,-101.685883)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.685883,
+          21.1554,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A12 2200 SUR ",
+        "description": "Num: 125<br>Coordenada: (21.146693,-101.653643)",
+        "timestamp": null,
+        "Coordenada": "(21.146693,-101.653643)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.653643,
+          21.146693,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A13 Y A. L. M. FTE 920 ",
+        "description": "Num: 126<br>Coordenada: (21.155583,-101.68585)",
+        "timestamp": null,
+        "Coordenada": "(21.155583,-101.68585)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.68585,
+          21.155583,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A14 FTE 4200 NTE ",
+        "description": "Num: 127<br>Coordenada: (21.145633,-101.648083)",
+        "timestamp": null,
+        "Coordenada": "(21.145633,-101.648083)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.648083,
+          21.145633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A15 FTE 1815 ",
+        "description": "Num: 128<br>Coordenada: (21.156233,-101.688867)",
+        "timestamp": null,
+        "Coordenada": "(21.156233,-101.688867)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.688867,
+          21.156233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A16 FTE 3200 SUR ",
+        "description": "Num: 129<br>Coordenada: (21.145283,-101.64835)",
+        "timestamp": null,
+        "Coordenada": "(21.145283,-101.64835)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64835,
+          21.145283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A18 3200 NTE ",
+        "description": "Num: 130<br>Coordenada: (21.143717,-101.640683)",
+        "timestamp": null,
+        "Coordenada": "(21.143717,-101.640683)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.640683,
+          21.143717,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A20 FTE 4200 SUR ",
+        "description": "Num: 131<br>Coordenada: (21.143483,-101.641367)",
+        "timestamp": null,
+        "Coordenada": "(21.143483,-101.641367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.641367,
+          21.143483,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A22 FTE 5200 NTE ",
+        "description": "Num: 132<br>Coordenada: (21.142267,-101.635167)",
+        "timestamp": null,
+        "Coordenada": "(21.142267,-101.635167)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.635167,
+          21.142267,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A23 KM 0 ",
+        "description": "Num: 133<br>Coordenada: (21.1491,-101.70735)",
+        "timestamp": null,
+        "Coordenada": "(21.1491,-101.70735)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.70735,
+          21.1491,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A24 FTE 5200 SUR ",
+        "description": "Num: 134<br>Coordenada: (21.142017,-101.635167)",
+        "timestamp": null,
+        "Coordenada": "(21.142017,-101.635167)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.635167,
+          21.142017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A25 KM 2.6 ",
+        "description": "Num: 135<br>Coordenada: (21.14485,-101.7101)",
+        "timestamp": null,
+        "Coordenada": "(21.14485,-101.7101)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7101,
+          21.14485,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A26 Y SORIANA M. FTE 101 ",
+        "description": "Num: 136<br>Coordenada: (21.139833,-101.635267)",
+        "timestamp": null,
+        "Coordenada": "(21.139833,-101.635267)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.635267,
+          21.139833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A27 KM 2.1 ",
+        "description": "Num: 137<br>Coordenada: (21.143774,-101.714534)",
+        "timestamp": null,
+        "Coordenada": "(21.143774,-101.714534)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.714534,
+          21.143774,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A29 KM 0.8 ",
+        "description": "Num: 139<br>Coordenada: (21.143267,-101.718233)",
+        "timestamp": null,
+        "Coordenada": "(21.143267,-101.718233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.718233,
+          21.143267,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A31 KM 1.7 ",
+        "description": "Num: 140<br>Coordenada: (21.139817,-101.7183)",
+        "timestamp": null,
+        "Coordenada": "(21.139817,-101.7183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7183,
+          21.139817,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A33 KM 1.2 ",
+        "description": "Num: 142<br>Coordenada: 21.1376631, -101.7199585",
+        "timestamp": null,
+        "Coordenada": "21.1376631, -101.7199585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7199585,
+          21.1376631,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A35 KM 0.3 ",
+        "description": "Num: 144<br>Coordenada: (21.135833,-101.717517)",
+        "timestamp": null,
+        "Coordenada": "(21.135833,-101.717517)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.717517,
+          21.135833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A39 PTE S/N ",
+        "description": "Num: 147<br>Coordenada: (21.128517,-101.718017)",
+        "timestamp": null,
+        "Coordenada": "(21.128517,-101.718017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.718017,
+          21.128517,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. A. TORRES A41 PTE S/N ",
+        "description": "Num: 148<br>Coordenada: (21.1221,-101.7213)",
+        "timestamp": null,
+        "Coordenada": "(21.1221,-101.7213)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7213,
+          21.1221,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A02",
+        "description": "Num: 149<br>Coordenada: 21.140718, -101.6308608",
+        "timestamp": null,
+        "Coordenada": "21.140718, -101.6308608"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6308608,
+          21.140718,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A04",
+        "description": "Num: 150<br>Coordenada: (21.139227,-101.624615)",
+        "timestamp": null,
+        "Coordenada": "(21.139227,-101.624615)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.624615,
+          21.139227,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A06",
+        "description": "Num: 151<br>Coordenada: (21.137520,-101.620691)",
+        "timestamp": null,
+        "Coordenada": "(21.137520,-101.620691)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.620691,
+          21.13752,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A08",
+        "description": "Num: 152<br>Coordenada: (21.134194,-101.613627)",
+        "timestamp": null,
+        "Coordenada": "(21.134194,-101.613627)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.613627,
+          21.134194,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A10",
+        "description": "Num: 153<br>Coordenada: (21.129366,-101.602100)",
+        "timestamp": null,
+        "Coordenada": "(21.129366,-101.602100)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6021,
+          21.129366,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A12",
+        "description": "Num: 154<br>Coordenada: (21.129669,-101.601936)",
+        "timestamp": null,
+        "Coordenada": "(21.129669,-101.601936)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.601936,
+          21.129669,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A14",
+        "description": "Num: 155<br>Coordenada: 21.1250133, -101.5956527",
+        "timestamp": null,
+        "Coordenada": "21.1250133, -101.5956527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5956527,
+          21.1250133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A16",
+        "description": "Num: 156<br>Coordenada: 21.1169928, -101.5908985",
+        "timestamp": null,
+        "Coordenada": "21.1169928, -101.5908985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5908985,
+          21.1169928,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A18",
+        "description": "Num: 157<br>Coordenada: (21.110218,-101.584514)",
+        "timestamp": null,
+        "Coordenada": "(21.110218,-101.584514)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.584514,
+          21.110218,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A20",
+        "description": "Num: 158<br>Coordenada: 21.1064807, -101.5804198",
+        "timestamp": null,
+        "Coordenada": "21.1064807, -101.5804198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5804198,
+          21.1064807,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "EJE METROPOLITANO A22",
+        "description": "Num: 159<br>Coordenada: 21.1025717, -101.5759712",
+        "timestamp": null,
+        "Coordenada": "21.1025717, -101.5759712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.5759712,
+          21.1025717,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A 11A ",
+        "description": "Num: 160<br>Coordenada: (21.170217,-101.682533)",
+        "timestamp": null,
+        "Coordenada": "(21.170217,-101.682533)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.682533,
+          21.170217,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A 13A ",
+        "description": "Num: 161<br>Coordenada: (21.16945,-101.688983)",
+        "timestamp": null,
+        "Coordenada": "(21.16945,-101.688983)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.688983,
+          21.16945,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A01A ",
+        "description": "Num: 164<br>Coordenada: (21.173517,-101.66625)",
+        "timestamp": null,
+        "Coordenada": "(21.173517,-101.66625)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.66625,
+          21.173517,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A03A ",
+        "description": "Num: 165<br>Coordenada: (21.173533,-101.669033)",
+        "timestamp": null,
+        "Coordenada": "(21.173533,-101.669033)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.669033,
+          21.173533,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A05A ",
+        "description": "Num: 166<br>Coordenada: (21.173467,-101.672083)",
+        "timestamp": null,
+        "Coordenada": "(21.173467,-101.672083)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.672083,
+          21.173467,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A07A ",
+        "description": "Num: 167<br>Coordenada: (21.1726,-101.675067)",
+        "timestamp": null,
+        "Coordenada": "(21.1726,-101.675067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675067,
+          21.1726,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A11B ",
+        "description": "Num: 168<br>Coordenada: (21.170217,-101.682467)",
+        "timestamp": null,
+        "Coordenada": "(21.170217,-101.682467)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.682467,
+          21.170217,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A16 ACERA NTE ",
+        "description": "Num: 169<br>Coordenada: (21.158483,-101.643383)",
+        "timestamp": null,
+        "Coordenada": "(21.158483,-101.643383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.643383,
+          21.158483,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A18 NTE ",
+        "description": "Num: 170<br>Coordenada: (21.157833,-101.6431)",
+        "timestamp": null,
+        "Coordenada": "(21.157833,-101.6431)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6431,
+          21.157833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A20 ",
+        "description": "Num: 171<br>Coordenada: (21.155917,-101.640383)",
+        "timestamp": null,
+        "Coordenada": "(21.155917,-101.640383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.640383,
+          21.155917,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A22 ",
+        "description": "Num: 172<br>Coordenada: (21.154,-101.638233)",
+        "timestamp": null,
+        "Coordenada": "(21.154,-101.638233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.638233,
+          21.154,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A24 ",
+        "description": "Num: 173<br>Coordenada: (21.151667,-101.635833)",
+        "timestamp": null,
+        "Coordenada": "(21.151667,-101.635833)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.635833,
+          21.151667,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A26 NTE ",
+        "description": "Num: 174<br>Coordenada: (21.1465,-101.634217)",
+        "timestamp": null,
+        "Coordenada": "(21.1465,-101.634217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.634217,
+          21.1465,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A28 NTE ",
+        "description": "Num: 175<br>Coordenada: (21.146283,-101.633717)",
+        "timestamp": null,
+        "Coordenada": "(21.146283,-101.633717)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.633717,
+          21.146283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A30 ",
+        "description": "Num: 176<br>Coordenada: (21.1421,-101.632667)",
+        "timestamp": null,
+        "Coordenada": "(21.1421,-101.632667)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.632667,
+          21.1421,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A32 ",
+        "description": "Num: 177<br>Coordenada: (21.13795,-101.631583)",
+        "timestamp": null,
+        "Coordenada": "(21.13795,-101.631583)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.631583,
+          21.13795,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A34 ",
+        "description": "Num: 178<br>Coordenada: (21.134367,-101.630683)",
+        "timestamp": null,
+        "Coordenada": "(21.134367,-101.630683)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.630683,
+          21.134367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A48 ",
+        "description": "Num: 179<br>Coordenada: (21.103973,-101.623473)",
+        "timestamp": null,
+        "Coordenada": "(21.103973,-101.623473)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.623473,
+          21.103973,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A48A ",
+        "description": "Num: 180<br>Coordenada: (21.103976,-101.623506)",
+        "timestamp": null,
+        "Coordenada": "(21.103976,-101.623506)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.623506,
+          21.103976,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A50 ",
+        "description": "Num: 181<br>Coordenada: (21.10285,-101.6237)",
+        "timestamp": null,
+        "Coordenada": "(21.10285,-101.6237)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6237,
+          21.10285,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A52A 3ER. NIVEL ",
+        "description": "Num: 182<br>Coordenada: (21.099417,-101.625333)",
+        "timestamp": null,
+        "Coordenada": "(21.099417,-101.625333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.625333,
+          21.099417,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A52B LATERALES MORELOS ",
+        "description": "Num: 183<br>Coordenada: (21.0994,-101.625317)",
+        "timestamp": null,
+        "Coordenada": "(21.0994,-101.625317)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.625317,
+          21.0994,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A9A ",
+        "description": "Num: 184<br>Coordenada: (21.171017,-101.678217)",
+        "timestamp": null,
+        "Coordenada": "(21.171017,-101.678217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.678217,
+          21.171017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A02",
+        "description": "Num: 185<br>Coordenada: (21.173277, -101.660239)",
+        "timestamp": null,
+        "Coordenada": "(21.173277, -101.660239)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.660239,
+          21.173277,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A04",
+        "description": "Num: 186<br>Coordenada: (21.17089, -101.656871)",
+        "timestamp": null,
+        "Coordenada": "(21.17089, -101.656871)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656871,
+          21.17089,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A06",
+        "description": "Num: 187<br>Coordenada: (21.167452, -101.653118)",
+        "timestamp": null,
+        "Coordenada": "(21.167452, -101.653118)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.653118,
+          21.167452,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A08",
+        "description": "Num: 188<br>Coordenada: (21.165484, -101.650875)",
+        "timestamp": null,
+        "Coordenada": "(21.165484, -101.650875)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.650875,
+          21.165484,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A10",
+        "description": "Num: 189<br>Coordenada: (21.163104, -101.648348)",
+        "timestamp": null,
+        "Coordenada": "(21.163104, -101.648348)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.648348,
+          21.163104,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A12",
+        "description": "Num: 190<br>Coordenada: (21.161133, -101.64617)",
+        "timestamp": null,
+        "Coordenada": "(21.161133, -101.64617)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64617,
+          21.161133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A14",
+        "description": "Num: 191<br>Coordenada: (21.159602, -101.64425)",
+        "timestamp": null,
+        "Coordenada": "(21.159602, -101.64425)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64425,
+          21.159602,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A36",
+        "description": "Num: 192<br>Coordenada: (21.13138, -101.629951)",
+        "timestamp": null,
+        "Coordenada": "(21.13138, -101.629951)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.629951,
+          21.13138,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A38",
+        "description": "Num: 193<br>Coordenada: (21.120397, -101.627149)",
+        "timestamp": null,
+        "Coordenada": "(21.120397, -101.627149)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.627149,
+          21.120397,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "J. M. MORELOS A40",
+        "description": "Num: 194<br>Coordenada: (21.114565, -101.625675)",
+        "timestamp": null,
+        "Coordenada": "(21.114565, -101.625675)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.625675,
+          21.114565,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A02 FTE 1108 ",
+        "description": "Num: 195<br>Coordenada: (21.12075,-101.654067)",
+        "timestamp": null,
+        "Coordenada": "(21.12075,-101.654067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.654067,
+          21.12075,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A04 FTE 1510 ",
+        "description": "Num: 196<br>Coordenada: (21.119283,-101.64885)",
+        "timestamp": null,
+        "Coordenada": "(21.119283,-101.64885)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64885,
+          21.119283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A06 FTE 1582 ",
+        "description": "Num: 197<br>Coordenada: (21.118983,-101.645617)",
+        "timestamp": null,
+        "Coordenada": "(21.118983,-101.645617)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.645617,
+          21.118983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A08 FTE 1740 ",
+        "description": "Num: 198<br>Coordenada: 21.1183499, -101.6421598",
+        "timestamp": null,
+        "Coordenada": "21.1183499, -101.6421598"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6421598,
+          21.1183499,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A10 FTE 1858 ",
+        "description": "Num: 199<br>Coordenada: 21.1172833, -101.6376526",
+        "timestamp": null,
+        "Coordenada": "21.1172833, -101.6376526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6376526,
+          21.1172833,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A12 FTE 2026 EYUPOL ",
+        "description": "Num: 200<br>Coordenada: (21.1162,-101.633067)",
+        "timestamp": null,
+        "Coordenada": "(21.1162,-101.633067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.633067,
+          21.1162,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A14 FTE 2620 EYUPOL ",
+        "description": "Num: 201<br>Coordenada: 21.1149402, -101.6291166",
+        "timestamp": null,
+        "Coordenada": "21.1149402, -101.6291166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6291166,
+          21.1149402,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A16 FTE 202 ",
+        "description": "Num: 202<br>Coordenada: 21.1132603, -101.6226588",
+        "timestamp": null,
+        "Coordenada": "21.1132603, -101.6226588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6226588,
+          21.1132603,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A18 FTE KM 1 ",
+        "description": "Num: 203<br>Coordenada: (21.112533,-101.616967)",
+        "timestamp": null,
+        "Coordenada": "(21.112533,-101.616967)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.616967,
+          21.112533,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "LA LUZ A20 ANT. CAM. KM 1.7 ",
+        "description": "Num: 204<br>Coordenada: 21.1113222, -101.6099517",
+        "timestamp": null,
+        "Coordenada": "21.1113222, -101.6099517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6099517,
+          21.1113222,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO GRANIZO Y ALUD A02",
+        "description": "Num: 205<br>Coordenada: (21.142136,-101.679998)",
+        "timestamp": null,
+        "Coordenada": "(21.142136,-101.679998)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679998,
+          21.142136,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO GRANIZO Y ALUD A02a",
+        "description": "Num: 206<br>Coordenada: 21.141993, -101.6804977",
+        "timestamp": null,
+        "Coordenada": "21.141993, -101.6804977"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6804977,
+          21.141993,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL GRANIZO A04 ESQ. BLVD. CAMPESTRE ",
+        "description": "Num: 207<br>Coordenada: (21.147604,-101.677689)",
+        "timestamp": null,
+        "Coordenada": "(21.147604,-101.677689)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.677689,
+          21.147604,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL GRANIZO A04a ESQ. BLVD. J. A. TORRES",
+        "description": "Num: 208<br>Coordenada: (21.151275,-101.677784)",
+        "timestamp": null,
+        "Coordenada": "(21.151275,-101.677784)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.677784,
+          21.151275,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO 2120 A20a ",
+        "description": "Num: 209<br>Coordenada: (21.142067,-101.680767)",
+        "timestamp": null,
+        "Coordenada": "(21.142067,-101.680767)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.680767,
+          21.142067,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y ESPANITA A02 ",
+        "description": "Num: 210<br>Coordenada: 21.1223416, -101.6726758",
+        "timestamp": null,
+        "Coordenada": "21.1223416, -101.6726758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6726758,
+          21.1223416,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y REPUBLICA A04 ",
+        "description": "Num: 211<br>Coordenada: 21.1239476, -101.6742943",
+        "timestamp": null,
+        "Coordenada": "21.1239476, -101.6742943"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6742943,
+          21.1239476,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y YERBABUENA A06 ",
+        "description": "Num: 212<br>Coordenada: (21.127109,-101.675326)",
+        "timestamp": null,
+        "Coordenada": "(21.127109,-101.675326)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675326,
+          21.127109,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y H. ALDAMA A08 ",
+        "description": "Num: 213<br>Coordenada: (21.128786,-101.67697)",
+        "timestamp": null,
+        "Coordenada": "(21.128786,-101.67697)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67697,
+          21.128786,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y H. ALDAMA A08A ",
+        "description": "Num: 214<br>Coordenada: 21.1287522, -101.6769506",
+        "timestamp": null,
+        "Coordenada": "21.1287522, -101.6769506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6769506,
+          21.1287522,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y JUAN ESCUTIA FTE120 A14 ",
+        "description": "Num: 215<br>Coordenada: (21.135533,-101.678383)",
+        "timestamp": null,
+        "Coordenada": "(21.135533,-101.678383)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.678383,
+          21.135533,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y CHIRIMOYO A16 ",
+        "description": "Num: 216<br>Coordenada: (21.134633,-101.67885)",
+        "timestamp": null,
+        "Coordenada": "(21.134633,-101.67885)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67885,
+          21.134633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y SIMON ALVAREZ A18 ",
+        "description": "Num: 217<br>Coordenada: (21.139233,-101.679417)",
+        "timestamp": null,
+        "Coordenada": "(21.139233,-101.679417)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679417,
+          21.139233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y DURAZNO A20 ",
+        "description": "Num: 218<br>Coordenada: (21.138567,-101.67985)",
+        "timestamp": null,
+        "Coordenada": "(21.138567,-101.67985)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67985,
+          21.138567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y JARDINEROS A01 ",
+        "description": "Num: 219<br>Coordenada: (21.119217,-101.669667)",
+        "timestamp": null,
+        "Coordenada": "(21.119217,-101.669667)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.669667,
+          21.119217,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y MERIDA A03 ",
+        "description": "Num: 220<br>Coordenada: (21.1181,-101.667533)",
+        "timestamp": null,
+        "Coordenada": "(21.1181,-101.667533)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.667533,
+          21.1181,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y NIZA A05 ",
+        "description": "Num: 221<br>Coordenada: 21.1157246, -101.6665506",
+        "timestamp": null,
+        "Coordenada": "21.1157246, -101.6665506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6665506,
+          21.1157246,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y SAN JORGE A07 ",
+        "description": "Num: 222<br>Coordenada: (21.112667,-101.664433)",
+        "timestamp": null,
+        "Coordenada": "(21.112667,-101.664433)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664433,
+          21.112667,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y ROSINNI A09 ",
+        "description": "Num: 223<br>Coordenada: (21.110367,-101.664017)",
+        "timestamp": null,
+        "Coordenada": "(21.110367,-101.664017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.664017,
+          21.110367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO FTE. SORIANA A11 ",
+        "description": "Num: 224<br>Coordenada: (21.10475,-101.660483)",
+        "timestamp": null,
+        "Coordenada": "(21.10475,-101.660483)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.660483,
+          21.10475,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y G. BOCANEGRA A13 ",
+        "description": "Num: 225<br>Coordenada: (21.10415,-101.6613)",
+        "timestamp": null,
+        "Coordenada": "(21.10415,-101.6613)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6613,
+          21.10415,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M DEL RIO Y SAN HIPOLITO A15 ",
+        "description": "Num: 226<br>Coordenada: (21.100017,-101.663983)",
+        "timestamp": null,
+        "Coordenada": "(21.100017,-101.663983)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.663983,
+          21.100017,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A02 FTE 115 OTE ",
+        "description": "Num: 227<br>Coordenada: (21.115217,-101.684183)",
+        "timestamp": null,
+        "Coordenada": "(21.115217,-101.684183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.684183,
+          21.115217,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A04 FTE 366 OTE ",
+        "description": "Num: 228<br>Coordenada: (21.114433,-101.6802)",
+        "timestamp": null,
+        "Coordenada": "(21.114433,-101.6802)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6802,
+          21.114433,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A06 ENTRE ESTOCOLMO ",
+        "description": "Num: 229<br>Coordenada: (21.11215,-101.67625)",
+        "timestamp": null,
+        "Coordenada": "(21.11215,-101.67625)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67625,
+          21.11215,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A18 FTE 1904 OTE ",
+        "description": "Num: 230<br>Coordenada: (21.107683,-101.66055)",
+        "timestamp": null,
+        "Coordenada": "(21.107683,-101.66055)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.66055,
+          21.107683,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A20 FTE 2005 OTE ",
+        "description": "Num: 231<br>Coordenada: (21.107033,-101.656533)",
+        "timestamp": null,
+        "Coordenada": "(21.107033,-101.656533)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.656533,
+          21.107033,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A22 FTE 3501 OTE ",
+        "description": "Num: 232<br>Coordenada: (21.105267,-101.6515)",
+        "timestamp": null,
+        "Coordenada": "(21.105267,-101.6515)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6515,
+          21.105267,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A24 FTE 4004 OTE ",
+        "description": "Num: 233<br>Coordenada: (21.10435,-101.648033)",
+        "timestamp": null,
+        "Coordenada": "(21.10435,-101.648033)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.648033,
+          21.10435,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A26 FTE 6305 FTE K 2 ",
+        "description": "Num: 234<br>Coordenada: (21.104117,-101.643217)",
+        "timestamp": null,
+        "Coordenada": "(21.104117,-101.643217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.643217,
+          21.104117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A28 FTE 4812 OTE ",
+        "description": "Num: 235<br>Coordenada: (21.103683,-101.63965)",
+        "timestamp": null,
+        "Coordenada": "(21.103683,-101.63965)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.63965,
+          21.103683,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A01 ESQ MERCED ",
+        "description": "Num: 236<br>Coordenada: (21.116583,-101.688133)",
+        "timestamp": null,
+        "Coordenada": "(21.116583,-101.688133)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.688133,
+          21.116583,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A09 FTE 4720 PTE ",
+        "description": "Num: 237<br>Coordenada: (21.1174,-101.711917)",
+        "timestamp": null,
+        "Coordenada": "(21.1174,-101.711917)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.711917,
+          21.1174,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A11 Y GLORIETA J. A. T. ",
+        "description": "Num: 238<br>Coordenada: (21.119633,-101.717767)",
+        "timestamp": null,
+        "Coordenada": "(21.119633,-101.717767)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.717767,
+          21.119633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A15 FTE 4807 ",
+        "description": "Num: 239<br>Coordenada: (21.121767,-101.724483)",
+        "timestamp": null,
+        "Coordenada": "(21.121767,-101.724483)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.724483,
+          21.121767,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A17 FTE 5701 ",
+        "description": "Num: 240<br>Coordenada: (21.121983,-101.72985)",
+        "timestamp": null,
+        "Coordenada": "(21.121983,-101.72985)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.72985,
+          21.121983,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A19 FTE 5918 PTE ",
+        "description": "Num: 241<br>Coordenada: (21.1168,-101.731783)",
+        "timestamp": null,
+        "Coordenada": "(21.1168,-101.731783)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.731783,
+          21.1168,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A21 FTE 5918 PTE ",
+        "description": "Num: 242<br>Coordenada: (21.11658,-101.731715)",
+        "timestamp": null,
+        "Coordenada": "(21.11658,-101.731715)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.731715,
+          21.11658,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A23 FTE 6518 PTE ",
+        "description": "Num: 243<br>Coordenada: (21.108733,-101.730367)",
+        "timestamp": null,
+        "Coordenada": "(21.108733,-101.730367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.730367,
+          21.108733,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A25 FTE 6910 PTE ",
+        "description": "Num: 244<br>Coordenada: (21.104517,-101.7307)",
+        "timestamp": null,
+        "Coordenada": "(21.104517,-101.7307)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7307,
+          21.104517,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A27 FTE 7531 A ",
+        "description": "Num: 245<br>Coordenada: (21.105617,-101.725833)",
+        "timestamp": null,
+        "Coordenada": "(21.105617,-101.725833)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.725833,
+          21.105617,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "M ESCOBEDO A29 FTE 2590 PTE ",
+        "description": "Num: 246<br>Coordenada: (21.105617,-101.7259)",
+        "timestamp": null,
+        "Coordenada": "(21.105617,-101.7259)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7259,
+          21.105617,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES ESQ CIPRES A01 ",
+        "description": "Num: 247<br>Coordenada: (21.140817,-101.683117)",
+        "timestamp": null,
+        "Coordenada": "(21.140817,-101.683117)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.683117,
+          21.140817,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE GASOLINERA A03 ",
+        "description": "Num: 248<br>Coordenada: (21.1407,-101.685133)",
+        "timestamp": null,
+        "Coordenada": "(21.1407,-101.685133)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.685133,
+          21.1407,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 210 A05 ",
+        "description": "Num: 249<br>Coordenada: (21.14185,-101.689233)",
+        "timestamp": null,
+        "Coordenada": "(21.14185,-101.689233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.689233,
+          21.14185,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE406 A07 ",
+        "description": "Num: 250<br>Coordenada: (21.143133,-101.69245)",
+        "timestamp": null,
+        "Coordenada": "(21.143133,-101.69245)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.69245,
+          21.143133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 802 A09 ",
+        "description": "Num: 251<br>Coordenada: (21.144367,-101.6954)",
+        "timestamp": null,
+        "Coordenada": "(21.144367,-101.6954)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6954,
+          21.144367,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 804 A11 ",
+        "description": "Num: 252<br>Coordenada: (21.144383,-101.6954)",
+        "timestamp": null,
+        "Coordenada": "(21.144383,-101.6954)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6954,
+          21.144383,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 2002 A13 ",
+        "description": "Num: 253<br>Coordenada: (21.1471,-101.702333)",
+        "timestamp": null,
+        "Coordenada": "(21.1471,-101.702333)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.702333,
+          21.1471,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 2004 A15 ",
+        "description": "Num: 254<br>Coordenada: (21.147133,-101.702317)",
+        "timestamp": null,
+        "Coordenada": "(21.147133,-101.702317)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.702317,
+          21.147133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 2408 A17 ",
+        "description": "Num: 255<br>Coordenada: (21.146967,-101.708183)",
+        "timestamp": null,
+        "Coordenada": "(21.146967,-101.708183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.708183,
+          21.146967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES A19",
+        "description": "Num: 256<br>Coordenada: (21.148030,-101.719024)",
+        "timestamp": null,
+        "Coordenada": "(21.148030,-101.719024)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.719024,
+          21.14803,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES FTE 2626 A21 ",
+        "description": "Num: 257<br>Coordenada: (21.151606,-101.720417)",
+        "timestamp": null,
+        "Coordenada": "(21.151606,-101.720417)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.720417,
+          21.151606,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES A23",
+        "description": "Num: 258<br>Coordenada: (21.159193,-101.723475)",
+        "timestamp": null,
+        "Coordenada": "(21.159193,-101.723475)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.723475,
+          21.159193,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES A25",
+        "description": "Num: 259<br>Coordenada: (21.164413,-101.727709)",
+        "timestamp": null,
+        "Coordenada": "(21.164413,-101.727709)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.727709,
+          21.164413,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES A27",
+        "description": "Num: 260<br>Coordenada: (21.169398,-101.730635)",
+        "timestamp": null,
+        "Coordenada": "(21.169398,-101.730635)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.730635,
+          21.169398,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PASEO DE LOS INSURGENTES A29",
+        "description": "Num: 261<br>Coordenada: (21.172816,-101.735970)",
+        "timestamp": null,
+        "Coordenada": "(21.172816,-101.735970)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.73597,
+          21.172816,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PLAZA PRINCIPAL FTE. PRESIDENCIA CTO. 01 ",
+        "description": "Num: 262<br>Coordenada: 21.1219456, -101.6824795",
+        "timestamp": null,
+        "Coordenada": "21.1219456, -101.6824795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6824795,
+          21.1219456,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "PLAZA PRINCIPAL FTE. PRESIDENCIA CTO. 02 ",
+        "description": "Num: 263<br>Coordenada: 21.1217629, -101.6826001",
+        "timestamp": null,
+        "Coordenada": "21.1217629, -101.6826001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6826001,
+          21.1217629,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A02 FTE 114 ",
+        "description": "Num: 265<br>Coordenada: (21.0946,-101.692217)",
+        "timestamp": null,
+        "Coordenada": "(21.0946,-101.692217)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.692217,
+          21.0946,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A04 FTE 510 ",
+        "description": "Num: 267<br>Coordenada: (21.09325,-101.687433)",
+        "timestamp": null,
+        "Coordenada": "(21.09325,-101.687433)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.687433,
+          21.09325,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A06 FTE 610 ",
+        "description": "Num: 269<br>Coordenada: (21.091967,-101.682017)",
+        "timestamp": null,
+        "Coordenada": "(21.091967,-101.682017)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.682017,
+          21.091967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A08 FTE 710 ",
+        "description": "Num: 270<br>Coordenada: (21.090083,-101.676183)",
+        "timestamp": null,
+        "Coordenada": "(21.090083,-101.676183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.676183,
+          21.090083,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A10 FTE 810 ",
+        "description": "Num: 271<br>Coordenada: (21.086233,-101.669233)",
+        "timestamp": null,
+        "Coordenada": "(21.086233,-101.669233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.669233,
+          21.086233,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A12 PRADERAS BOSQUE ",
+        "description": "Num: 272<br>Coordenada: (21.082559,-101.663016)",
+        "timestamp": null,
+        "Coordenada": "(21.082559,-101.663016)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.663016,
+          21.082559,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A12 PRADERAS BOSQUE ",
+        "description": "Num: 273<br>Coordenada: (21.082702,-101.662941)",
+        "timestamp": null,
+        "Coordenada": "(21.082702,-101.662941)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.662941,
+          21.082702,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A14 FTE 2601 ",
+        "description": "Num: 274<br>Coordenada: (21.07806,-101.65512)",
+        "timestamp": null,
+        "Coordenada": "(21.07806,-101.65512)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65512,
+          21.07806,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A14 FTE 2601 ",
+        "description": "Num: 275<br>Coordenada: (21.078142,-101.655073)",
+        "timestamp": null,
+        "Coordenada": "(21.078142,-101.655073)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.655073,
+          21.078142,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A16 FTE 3119 ",
+        "description": "Num: 276<br>Coordenada: (21.0748,-101.6492)",
+        "timestamp": null,
+        "Coordenada": "(21.0748,-101.6492)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6492,
+          21.0748,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A18 FTE 3119 ",
+        "description": "Num: 277<br>Coordenada: (21.074767,-101.649183)",
+        "timestamp": null,
+        "Coordenada": "(21.074767,-101.649183)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.649183,
+          21.074767,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A20 FTE 3601 ",
+        "description": "Num: 278<br>Coordenada: (21.071117,-101.642933)",
+        "timestamp": null,
+        "Coordenada": "(21.071117,-101.642933)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.642933,
+          21.071117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A22 FTE 3601 ",
+        "description": "Num: 279<br>Coordenada: (21.071117,-101.64295)",
+        "timestamp": null,
+        "Coordenada": "(21.071117,-101.64295)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64295,
+          21.071117,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A24 FTE 4001 ",
+        "description": "Num: 280<br>Coordenada: (21.0678,-101.637267)",
+        "timestamp": null,
+        "Coordenada": "(21.0678,-101.637267)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.637267,
+          21.0678,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A26 FTE 4001 ",
+        "description": "Num: 281<br>Coordenada: (21.0678,-101.637233)",
+        "timestamp": null,
+        "Coordenada": "(21.0678,-101.637233)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.637233,
+          21.0678,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A28",
+        "description": "Num: 282<br>Coordenada: (21.065979, -101.634039)",
+        "timestamp": null,
+        "Coordenada": "(21.065979, -101.634039)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.634039,
+          21.065979,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A30",
+        "description": "Num: 283<br>Coordenada: (21.064242, -101.629636)",
+        "timestamp": null,
+        "Coordenada": "(21.064242, -101.629636)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.629636,
+          21.064242,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A32",
+        "description": "Num: 284<br>Coordenada: (21.061803, -101.620032)",
+        "timestamp": null,
+        "Coordenada": "(21.061803, -101.620032)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.620032,
+          21.061803,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TIMOTEO LOZANO A34",
+        "description": "Num: 285<br>Coordenada: (21.060656, -101.614512)",
+        "timestamp": null,
+        "Coordenada": "(21.060656, -101.614512)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.614512,
+          21.060656,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A35",
+        "description": "Num: 289<br>Coordenada: 21.0528984, -101.7789905",
+        "timestamp": null,
+        "Coordenada": "21.0528984, -101.7789905"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7789905,
+          21.0528984,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A33",
+        "description": "Num: 291<br>Coordenada: 21.0607966, -101.7688975",
+        "timestamp": null,
+        "Coordenada": "21.0607966, -101.7688975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7688975,
+          21.0607966,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A31",
+        "description": "Num: 293<br>Coordenada: 21.0677999, -101.7610772",
+        "timestamp": null,
+        "Coordenada": "21.0677999, -101.7610772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7610772,
+          21.0677999,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A29",
+        "description": "Num: 295<br>Coordenada: 21.0776525, -101.7516016",
+        "timestamp": null,
+        "Coordenada": "21.0776525, -101.7516016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7516016,
+          21.0776525,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A11 ",
+        "description": "Num: 297<br>Coordenada: 21.1014432, -101.7134659",
+        "timestamp": null,
+        "Coordenada": "21.1014432, -101.7134659"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7134659,
+          21.1014432,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A13 ",
+        "description": "Num: 299<br>Coordenada: 21.1013748, -101.713657",
+        "timestamp": null,
+        "Coordenada": "21.1013748, -101.713657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.713657,
+          21.1013748,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A15 ",
+        "description": "Num: 301<br>Coordenada: (21.098633,-101.7221)",
+        "timestamp": null,
+        "Coordenada": "(21.098633,-101.7221)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7221,
+          21.098633,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A17 ",
+        "description": "Num: 303<br>Coordenada: 21.098688, -101.7219593",
+        "timestamp": null,
+        "Coordenada": "21.098688, -101.7219593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7219593,
+          21.098688,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A19 ",
+        "description": "Num: 305<br>Coordenada: (21.094933,-101.729967)",
+        "timestamp": null,
+        "Coordenada": "(21.094933,-101.729967)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.729967,
+          21.094933,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A21 ",
+        "description": "Num: 307<br>Coordenada: (21.094867,-101.730067)",
+        "timestamp": null,
+        "Coordenada": "(21.094867,-101.730067)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.730067,
+          21.094867,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A23 ",
+        "description": "Num: 309<br>Coordenada: (21.090267,-101.736717)",
+        "timestamp": null,
+        "Coordenada": "(21.090267,-101.736717)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.736717,
+          21.090267,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A25 ",
+        "description": "Num: 311<br>Coordenada: (21.088133,-101.7424)",
+        "timestamp": null,
+        "Coordenada": "(21.088133,-101.7424)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7424,
+          21.088133,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "TORRES LANDA A27 ",
+        "description": "Num: 313<br>Coordenada: (21.085,-101.745833)",
+        "timestamp": null,
+        "Coordenada": "(21.085,-101.745833)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.745833,
+          21.085,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "V. VALTIERRA A26 FTE 4500 ",
+        "description": "Num: 330<br>Coordenada: (21.1249,-101.622367)",
+        "timestamp": null,
+        "Coordenada": "(21.1249,-101.622367)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.622367,
+          21.1249,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "V. VALTIERRA A28 FTE 4800 ",
+        "description": "Num: 331<br>Coordenada: (21.122283,-101.615533)",
+        "timestamp": null,
+        "Coordenada": "(21.122283,-101.615533)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.615533,
+          21.122283,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "V. VALTIERRA A30 FTE 5000 ",
+        "description": "Num: 332<br>Coordenada: (21.117483,-101.6097)",
+        "timestamp": null,
+        "Coordenada": "(21.117483,-101.6097)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.6097,
+          21.117483,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "V. VALTIERRA A32 FTE 5500 ",
+        "description": "Num: 333<br>Coordenada: (21.112733,-101.604767)",
+        "timestamp": null,
+        "Coordenada": "(21.112733,-101.604767)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.604767,
+          21.112733,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "VASCO DE QUIROGA A03 FTE 202 ",
+        "description": "Num: 335<br>Coordenada: (21.113567,-101.65985)",
+        "timestamp": null,
+        "Coordenada": "(21.113567,-101.65985)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.65985,
+          21.113567,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CALZADA DE LOS HEROES",
+        "description": "Num: 344<br>Coordenada: (21.118431, -101.670012)",
+        "timestamp": null,
+        "Coordenada": "(21.118431, -101.670012)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.670012,
+          21.118431,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CALLE MADERO",
+        "description": "Num: 345<br>Coordenada: (21.120026, -101.675882)",
+        "timestamp": null,
+        "Coordenada": "(21.120026, -101.675882)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.675882,
+          21.120026,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "SAN JUAN DE DIOS",
+        "description": "Num: 346<br>Coordenada: (21.117178, -101.679899)",
+        "timestamp": null,
+        "Coordenada": "(21.117178, -101.679899)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.679899,
+          21.117178,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMINO A COMANJA A02 JTO. PARQUE METROPOLITANO ",
+        "description": "Num: 347<br>Coordenada: (21.174967,-101.699)",
+        "timestamp": null,
+        "Coordenada": "(21.174967,-101.699)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.699,
+          21.174967,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMINO A COMANJA A04 JTO. A PIEDRERA ",
+        "description": "Num: 348<br>Coordenada: (21.179533,-101.703817)",
+        "timestamp": null,
+        "Coordenada": "(21.179533,-101.703817)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.703817,
+          21.179533,
+          0.0
+        ]
+      }
+    }
+  ]
+}

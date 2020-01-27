@@ -1,0 +1,342 @@
+.luciad .lcdBalloon .lcdContent {
+    max-height: 400px;
+    max-width: 400px;
+    width: auto;
+}
+#map {
+    position: fixed;
+  width: -moz-calc(100% - 1px);
+  width: -webkit-calc(100% - 1px);
+  width: calc(100% - 1px);
+  height: -moz-calc(100% - 0px);
+  height: -webkit-calc(100% - 0px);
+  height: calc(100% - 0px);
+  right: 0;
+  /*top: 50px;*/
+}
+
+
+#left {
+    position: fixed;
+  width: -moz-calc(30% - 1px);
+  width: -webkit-calc(30% - 1px);
+  width: calc(30% - 1px);
+  background-color: #17202a; /*#181818;*/
+  height: -moz-calc(100% - 0px);
+  height: -webkit-calc(100% - 0px);
+  height: calc(100% - 0px);
+  left: 0;
+  bottom: 0px;
+  z-index: 300;
+  padding: 10px 10px 10px 10px;
+  overflow-y: scroll;
+}
+
+#topLine {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #0d2341;
+    z-index: 300;
+    height: 50px;
+}
+
+#ui-id-1{
+    width: 20% !important;
+    border: 1px solid #c1d92a !important;
+    color: #c1d92a !important;
+    /*text-shadow: 0.1em 0.1em 0.1em #c1d92a;*/
+}
+
+.avoid-clicks {
+    pointer-events: none;
+}
+
+.table {
+   width: 100px;
+   border: 0px solid #000;
+}
+th, td {
+   
+   text-align: left;
+   vertical-align: top;
+   border: 0px solid #FFFFFF;
+   border-collapse: collapse;
+   padding: 5px;
+   caption-side: bottom;
+}
+
+.label {
+  font-size: 12px;
+  padding: 2px;
+  font: 'LeagueGothicRegular';
+  text-shadow: 1px 1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000, -1px -1px 1px #000000, 0 -1px 1px #000000, -1px 0 1px #000000, 1px 0 1px #000000, 0 1px 1px #000000;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+      width: 10px;
+}
+::-webkit-scrollbar-track {
+      background-color: #1d2227;
+} 
+::-webkit-scrollbar-thumb {
+      background-color: #bcdb28;
+} 
+::-webkit-scrollbar-button {
+      background-color: #bcdb28;
+}
+::-webkit-scrollbar-corner {
+      background-color: #1d2227;
+}
+
+.panel {
+    display: none;
+    right: 30px;
+    top: 27px;
+    min-width: 400px;
+    max-width: 95%;
+    min-height: 400px;
+    max-height: 85%;
+    position: absolute;
+    z-index: 300;
+    background-color: #17202a;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bcdb28;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 7px rgba(0,0,0,.2);
+}
+.panel2 {
+    display: none;
+    right: 30px;
+    top: 27px;
+    min-width: 400px;
+    max-width: 95%;
+    min-height: 400px;
+    max-height: 85%;
+    position: absolute;
+    z-index: 300;
+    background-color: #394b5f;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bcdb28;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 7px rgba(0,0,0,.2);
+}
+
+.big {
+    /*left: 50px;*/
+    top: 50px;
+    width: 70%;
+    height: 90%;
+    min-width: 580px;
+}
+
+.rightpanel {
+    display: none;
+    right: 10px;
+    top: 27px;
+    min-width: 400px;
+    max-width: 95%;
+    min-height: 400px;
+    max-height: 85%;
+    position: absolute;
+    z-index: 300;
+    padding: 0 10px 10px 10px;
+    background-color: #17202a;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bcdb28;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.panelContent {
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 52px);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: #17202a;
+}
+.panelContent2 {
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: #17202a;
+}
+
+.closeButton {
+    display: block;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    z-index: 100;
+}
+
+/* =========== */
+
+.leftPanel {
+    /*display: none;*/
+    position: absolute;
+    width: 30%;
+    background-color: #17202a; /*#181818;*/
+    height: 100%;
+    left: 0;
+    z-index: 300;
+    
+    margin-left: -50% !important;
+    margin-right: 99%;
+}
+
+.leftPanel.moveLeft {
+    -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  margin-left: -50% !important;
+  margin-right: 100% !important;
+}
+.leftPanel.moveRight {
+    -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  margin-left: 0% !important;
+  margin-right: 50% !important;
+}
+
+
+#labelChart0 {
+    width: fit-content;
+    position: relative;
+    left: 39%;
+    top: 39%;
+    font-size: 18px;
+}
+#labelChart1 {
+    width: fit-content;
+    position: relative;
+    left: 39%;
+    top: 39%;
+    font-size: 18px;
+}
+.labelPie {
+    width: fit-content;
+    position: relative;
+    left: 39%;
+    top: 39%;
+    font-size: 18px;
+}
+.panelTime {
+    display: none;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    height: 170px;
+    position: absolute;
+    z-index: 300;
+    padding: 10px 10px 10px 10px;
+    background-color: #17202a;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bcdb28;
+}
+.panelTime2 {
+    display: none;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    height: 100px;
+    position: absolute;
+    z-index: 300;
+    padding: 10px 10px 10px 10px;
+    background-color: #17202a;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bcdb28;
+}
+
+.bigTable {
+    position: relative;
+    width: calc(100% - 100px);
+    height: calc(100% - 200px);
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#logoLeon {
+  width: 118px;
+  height: 118px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 150;
+  background-image: url("../data/icons/logo/escudo_pie2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  background-size: contain;
+  pointer-events: none;
+}
+#logoLeonB {
+  width: 118px;
+  height: 118px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 150;
+  background-image: url("../data/icons/logo/escudo_pie2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.labelError {
+    color: #d9534f;
+}
+
+#infoPanel {
+    display: none;
+    left: 0px;
+    top: 0px;
+    min-width: 300px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    z-index: 300;
+    background-color: #15202d;
+    padding-top: 20px;
+    font-size: 14px;
+    border-width: 1px;
+    box-shadow: 0 10px 7px rgba(0,0,0,.2);
+}
+
+/*#labelTime {
+    width: 200px;
+    left: calc(50% - 100px); 
+    position: absolute;
+    bottom: 50px;
+}*/

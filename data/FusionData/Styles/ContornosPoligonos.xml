@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FeatureTypeStyle xmlns="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/ogc http://schemas.opengis.net/filter/1.1.0/filter.xsd http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/base/gml.xsd http://www.w3.org/1999/xlink http://www.w3.org/1999/xlink.xsd " version="1.1.0">
+  <Name>Contornos</Name>
+  <Description>
+    <Title>Contornos</Title>
+    <Abstract>Painter para los municipios de Leon</Abstract>
+  </Description>
+  <Rule>
+    <Name>Mostrar Municipios</Name>
+    <Description>
+      <Title>Default</Title>
+      <Abstract>Mostrar municipios con color azul y contorno blanco</Abstract>
+    </Description>
+    <MaxScaleDenominator>3.0E10</MaxScaleDenominator>
+    <PolygonSymbolizer>
+      <Stroke>
+        <SvgParameter name="stroke">#effbfe</SvgParameter>
+        <SvgParameter name="stroke-width">4</SvgParameter>
+      </Stroke>
+    </PolygonSymbolizer>
+    <TextSymbolizer>
+      <Label><ogc:PropertyName>NOMMUN</ogc:PropertyName></Label>
+      <Font>
+        <SvgParameter name="font-family">Arial</SvgParameter>
+        <SvgParameter name="font-size">16</SvgParameter>
+      </Font>
+      <Halo>
+        <Radius>1</Radius>
+        <Fill>
+          <SvgParameter name="fill">#000000</SvgParameter>
+        </Fill>
+      </Halo>
+      <Fill>
+        <SvgParameter name="fill">#ffffff</SvgParameter>
+      </Fill>
+    </TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Name>Mostrar contornos</Name>
+    <Description>
+      <Title>Default</Title>
+      <Abstract>Mostrar municipios sin relleno y contorno blanco</Abstract>
+    </Description>
+    <MaxScaleDenominator>8000000.0</MaxScaleDenominator>
+    <PolygonSymbolizer>
+      <Stroke>
+        <SvgParameter name="stroke">#effbfe</SvgParameter>
+        <SvgParameter name="stroke-width">6</SvgParameter>
+      </Stroke>
+    </PolygonSymbolizer>
+    <TextSymbolizer>
+      <Label><ogc:PropertyName>NOMMUN</ogc:PropertyName></Label>
+      <Font>
+        <SvgParameter name="font-family">Arial</SvgParameter>
+        <SvgParameter name="font-size">16</SvgParameter>
+      </Font>
+      <Halo>
+        <Radius>1</Radius>
+        <Fill>
+          <SvgParameter name="fill">#000000</SvgParameter>
+        </Fill>
+      </Halo>
+      <Fill>
+        <SvgParameter name="fill">#ffffff</SvgParameter>
+      </Fill>
+    </TextSymbolizer>
+  </Rule>
+</FeatureTypeStyle>

@@ -1,0 +1,15 @@
+[
+  {
+    "pomid": 41908,
+    "phenomenon": {
+      "phenomenonid": "leq_c",
+      "unit": "dBC"
+    },
+    "measurements": [
+      {
+        "lstamp": 1570295803126,
+        "value": "50.20"
+      }
+    ]
+  }
+]

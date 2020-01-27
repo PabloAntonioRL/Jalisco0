@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FeatureTypeStyle xmlns="http://www.opengis.net/se"
+                  xmlns:ogc="http://www.opengis.net/ogc"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.opengis.net/ogc http://schemas.opengis.net/filter/1.1.0/filter.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+                  version="1.1.0">
+  <Name>Cities with level of detail</Name>
+  <Description>
+    <Title>Cities with level of detail</Title>
+    <Abstract>A style that renders city locations with different levels of detail depending on the population:
+      - cities with a population greater than or equal to 1000000: always visible,
+      - cities with a population between 500000 and 999999: visible at scale 1:30,000,000 and below,
+      - cities with a population smaller than 500000: visible at scale 1:8,000,000 and below,
+      Each of these visualization rules uses an appropriate size for the icon and text label.
+    </Abstract>
+  </Description>
+  <Rule>
+    <Name>large_scale_cities</Name>
+    <Description>
+      <Title>Large scale cities rule</Title>
+      <Abstract>Rule to render a city location with a large icon and label
+        when the population is greater than or equal to 1000000.</Abstract>
+    </Description>
+    <ogc:Filter>
+      <ogc:PropertyIsGreaterThanOrEqualTo>
+        <ogc:PropertyName>TOT_POP</ogc:PropertyName>
+        <ogc:Literal>1000000</ogc:Literal>
+      </ogc:PropertyIsGreaterThanOrEqualTo>
+    </ogc:Filter>
+    <PointSymbolizer>
+      <Graphic>
+        <Mark>
+          <WellKnownName>circle</WellKnownName>
+          <Fill>
+            <SvgParameter name="fill">#666666</SvgParameter>
+          </Fill>
+          <Stroke>
+            <SvgParameter name="fill">#CCCCCC</SvgParameter>
+          </Stroke>
+        </Mark>
+        <Size>14.0</Size>
+      </Graphic>
+    </PointSymbolizer>
+    <TextSymbolizer>
+      <Label><ogc:PropertyName>CITY</ogc:PropertyName></Label>
+      <Font>
+        <SvgParameter name="font-family">Arial</SvgParameter>
+        <SvgParameter name="font-size">16</SvgParameter>
+      </Font>
+      <Halo>
+        <Radius>1</Radius>
+        <Fill>
+          <SvgParameter name="fill">#000000</SvgParameter>
+        </Fill>
+      </Halo>
+      <Fill>
+        <SvgParameter name="fill">#ffffff</SvgParameter>
+      </Fill>
+    </TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Name>medium_scale_cities</Name>
+    <Description>
+      <Title>Medium scale cities rule</Title>
+      <Abstract>Rule to render a city location with a medium-sized icon and label
+        when the population is between 500000 and 999999 and when the map scale
+        is at most 1:30,000,000.</Abstract>
+    </Description>
+    <ogc:Filter>
+      <ogc:PropertyIsBetween>
+        <ogc:PropertyName>TOT_POP</ogc:PropertyName>
+        <ogc:LowerBoundary>
+          <ogc:Literal>500000</ogc:Literal>
+        </ogc:LowerBoundary>
+        <ogc:UpperBoundary>
+          <ogc:Literal>999999</ogc:Literal>
+        </ogc:UpperBoundary>
+      </ogc:PropertyIsBetween>
+    </ogc:Filter>
+    <MaxScaleDenominator>3.0E7</MaxScaleDenominator>
+    <PointSymbolizer>
+      <Graphic>
+        <Mark>
+          <WellKnownName>circle</WellKnownName>
+          <Fill>
+            <SvgParameter name="fill">#666666</SvgParameter>
+          </Fill>
+          <Stroke>
+            <SvgParameter name="fill">#CCCCCC</SvgParameter>
+          </Stroke>
+        </Mark>
+        <Size>10.0</Size>
+      </Graphic>
+    </PointSymbolizer>
+    <TextSymbolizer>
+      <Label><ogc:PropertyName>CITY</ogc:PropertyName></Label>
+      <Font>
+        <SvgParameter name="font-family">Arial</SvgParameter>
+        <SvgParameter name="font-size">14</SvgParameter>
+      </Font>
+      <Halo>
+        <Radius>1</Radius>
+        <Fill>
+          <SvgParameter name="fill">#000000</SvgParameter>
+        </Fill>
+      </Halo>
+      <Fill>
+        <SvgParameter name="fill">#ffffff</SvgParameter>
+      </Fill>
+    </TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Name>small_scale_cities</Name>
+    <Description>
+      <Title>Small scale cities rule</Title>
+      <Abstract>Rule to render a city location with a small icon and label
+        when the population is smaller than 500000 and when the map scale
+        is at most 1:8,000,000.</Abstract>
+    </Description>
+    <ogc:Filter>
+      <ogc:PropertyIsLessThan>
+        <ogc:PropertyName>TOT_POP</ogc:PropertyName>
+        <ogc:Literal>500000</ogc:Literal>
+      </ogc:PropertyIsLessThan>
+    </ogc:Filter>
+    <MaxScaleDenominator>8000000.0</MaxScaleDenominator>
+    <PointSymbolizer>
+      <Graphic>
+        <Mark>
+          <WellKnownName>circle</WellKnownName>
+          <Fill>
+            <SvgParameter name="fill">#666666</SvgParameter>
+          </Fill>
+          <Stroke>
+            <SvgParameter name="fill">#CCCCCC</SvgParameter>
+          </Stroke>
+        </Mark>
+        <Size>6.0</Size>
+      </Graphic>
+    </PointSymbolizer>
+    <TextSymbolizer>
+      <Label><ogc:PropertyName>CITY</ogc:PropertyName></Label>
+      <Font>
+        <SvgParameter name="font-family">Arial</SvgParameter>
+        <SvgParameter name="font-size">12</SvgParameter>
+      </Font>
+      <Halo>
+        <Radius>1</Radius>
+        <Fill>
+          <SvgParameter name="fill">#000000</SvgParameter>
+        </Fill>
+      </Halo>
+      <Fill>
+        <SvgParameter name="fill">#ffffff</SvgParameter>
+      </Fill>
+    </TextSymbolizer>
+  </Rule>
+</FeatureTypeStyle>

@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2018, 4:11:34 PM
+    Author     : Pablo
+*/
+.styled-select {
+   /*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+   background: transparent;
+   height: 45px;
+   overflow: hidden;
+   width: 100%;
+   
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 100%;
+}
+
+.styled-select.slate {
+   /*background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center; */
+   height: 34px;
+   width: 100%;
+}
+
+.styled-select.slate select {
+   background-color: rgb(13, 20, 28);
+   background: transparent;
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 100%;
+}
+
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
