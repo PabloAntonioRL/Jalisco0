@@ -117,8 +117,9 @@ define([
         if(googleMap !== true)
             LayerConfigUtil.addLonLatGridLayer(map);
         var mexicoLayer;
-        mexicoLayer = LayerFactory.createKmlLayer({label: "Mexico", selectable: false, layerType: LayerType.BASE}, '../../proyecto/recursos/estados.kml');
-        
+        //mexicoLayer = LayerFactory.createKmlLayer({label: "Mexico", selectable: false, layerType: LayerType.BASE}, '../../proyecto/recursos/estados.kml');
+        mexicoLayer = LayerFactory.createWMSLayer(referenceC, {label: "Mexico", selectable: false, layerType: LayerType.BASE},
+            "https://lfci.aggme.tech:/ogc/wms/estadosmexico", "estadosmexico");
         /*if(conectToFusion === false) {
             
         } else {
@@ -130,16 +131,17 @@ define([
         
         //var jalisco = LayerFactory.createMunicipiosLayer(["Jalisco"], referenceC, {label:"Jalisco", layerType: LayerType.BASE});
         //map.layerTree.addChild(jalisco);
-       /* guanajuato = LayerFactory.createWMSLayer(mainReference, {label: "Guanajuato (WMS)", layerType: LayerType.STATIC, maxScale: 0.00000527501341042231
+        guanajuato = LayerFactory.createWMSLayer(mainReference, {label: "Guanajuato (WMS)", layerType: LayerType.STATIC//, maxScale: 0.00000527501341042231
             //requestParameters: {RedirectURL: "http://localhost:8081/ogc/wms/guanajuatomunicipios"}}, 
             //"https://cileon.aggme.tech/InterSect/redireccion", "guanajuatomunicipios");
-            },"https://cileon.aggme.tech/InterSect/fusion/ogc/wms/guanajuatomunicipios", "guanajuatomunicipios");
-        map.layerTree.addChild(guanajuato);*/
+            },"https://lfci.aggme.tech:/ogc/wms/guadalajara", "guadalajara");
+        map.layerTree.addChild(guanajuato);
+        
         
         // ================================ Movilidad ===================================== //
         if(tipoUsuario === "dev" || tipoUsuario === "movilidad") {
-            calles = LayerFactory.createFeatureLayer(referenceC, {label: "Calles", painter: new callesPainter(), selectable:true, layerType: LayerType.STATIC}, "data/vialidades.geojson");
-            map.layerTree.addChild(calles);
+            //calles = LayerFactory.createFeatureLayer(referenceC, {label: "Calles", painter: new callesPainter(), selectable:true, layerType: LayerType.STATIC}, "data/vialidades.geojson");
+            //map.layerTree.addChild(calles);
 
             try {
                 sMovilidadSimulacion = LayerFactory.createMemoryLayer(referenceC, {label:"Vectores Movilidad (S)", visible: false, painter: new SensoresMovilidad(), selectable: true, layerType: LayerType.DINAMIC});
@@ -173,11 +175,11 @@ define([
                 
                 MovilidadLayer.createLayer(referenceC, sMovilidad, sMovilidadVectores, config.baseUrl, sMovilidadSimulacion, sMovilidadMatriz);
                 if(tipoUsuario === "movilidad") {
-                    var queryFinishedHandle = calles.workingSet.on("QueryFinished", function() {
+                    /*var queryFinishedHandle = calles.workingSet.on("QueryFinished", function() {
                             if(calles.bounds) 
                                 map.mapNavigator.fit({bounds: calles.bounds, animate: true});
                             queryFinishedHandle.remove();
-                        });
+                        });*/
                 }
             } catch(e) {
                 console.log(e);

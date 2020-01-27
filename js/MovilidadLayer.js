@@ -48,6 +48,11 @@ define([
             Util.setOptions("vectoresMatriz", names, "Todos", nodos);
             crearVectors(reference, layer2, features, layer3);
             layerMatriz = layer4;
+            setTimeout(function () {
+                if(layerNodes.bounds) {
+                    Util.fitBounds(map, layerNodes.bounds, true);
+                }
+            }, 2000);
             MovilidadMatrizLayer.createArcs(reference, layerMatriz, layerNodes);
         }).fail(function (e) {
             console.error(e);
@@ -137,16 +142,19 @@ define([
         var date = Util.formatDate(null, "aaaammdd");
         var date2 = Util.formatDateUTC(null, "aaaammdd");
         console.log("Fecha Nodos "+date+" UTC "+date2);
-        var time = Util.formatDateUTC(null, "date");
         //var time = Util.formatDateUTC(null, "date");
-        var h = time.getHours(), m = time.getMinutes();
+        /*var h = time.getHours(), m = time.getMinutes();
         h = (h) * 60;
-        time = Math.round((h + m) / 15);
-        
+        time = Math.round((h + m) / 15);*/
+        var time2 = new Date();
+        var h2 = time2.getHours(), m2 = time2.getMinutes();
+        //h2 = (h2) * 60;
+        //time2 = Math.round((h2 + m2) / 15);
+        h2 = (h2*4)-1;
         var origenDestino = document.getElementById("tipoMatriz").selectedOptions[0].value;
-        //$.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+time+"s1&table="+origenDestino+"&returns=true&z=1", function (data) {
-        $.getJSON(url+"?date="+date+"&slot="+time+"s1&table="+origenDestino+"&returns=true&z=1"
-		+"&RedirectURL="+encodeURI("http://165.22.155.28:5000/bitcarrier/odm"), function (data) {
+        $.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+h2+"s1&table="+origenDestino+"&returns=true&z=1", function (data) {
+        //$.getJSON(url+"?date="+date+"&slot="+time+"s1&table="+origenDestino+"&returns=true&z=1"
+	//	+"&RedirectURL="+encodeURI("http://165.22.155.28:5000/bitcarrier/odm"), function (data) {
         //$.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+time, function (data) {
             console.log("============ Conectado con Datos de Nodos Movilidad ============");
             var features = layerNodes.model.query().array;
