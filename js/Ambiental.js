@@ -79,7 +79,7 @@ function (sensorCharts, Util, Shapes, AireBalloon) {
             
         }
         Util.setOptions("selectSensorAmbiental", nombres, false, ids);
-        Util.fitCoordinates(map, [-101.74787733716875, 0.13691, 21.05929218306161, 0.14522], true);
+        Util.fitCoordinates(map, [-101.74787733716875- 1.68, 0.13691, 21.05929218306161 - 0.451, 0.14522], true);
         newobtenerListaDatos();
     }
      function newobtenerListaDatos() {

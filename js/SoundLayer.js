@@ -239,7 +239,7 @@ define(["recursos/js/Shapes", "recursos/js/LayerFactory", 'recursos/js/Util', ".
                 properties[att] = val;
                 properties[att+"_last_update"] = last;
             }*/
-            if(lon > -101.80101604972198 && lon < -101.37788057285069 && lat > 20.864701036059994 && lat < 21.339929516664647) {
+            //if(lon > -101.80101604972198 && lon < -101.37788057285069 && lat > 20.864701036059994 && lat < 21.339929516664647) {
                 var feature = Shapes.createPoint(reference, lon, lat, 0, id, properties);
                 features[i] = feature;
                 capaSonido.model.add(feature);
@@ -250,7 +250,7 @@ define(["recursos/js/Shapes", "recursos/js/LayerFactory", 'recursos/js/Util', ".
                 capaSonidoH.model.add(feature2);
                 if(id === "41908" || id === 41908)
                     keyIdSensor = ids.length-1;
-            }
+            //}
         }
         capaSonido.visible = false;
         capaSonidoH.visible = false;
