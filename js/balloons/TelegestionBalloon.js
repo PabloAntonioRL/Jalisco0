@@ -40,8 +40,6 @@ define([
                     value = ""
                 else
                     value = properties[key];
-                if(key === "Estado")
-                    value = properties[key]===true? "Encendido": "Apagado";
                 if(key === "Medidores") {
                     var medidores = properties[key];
                     value = "";

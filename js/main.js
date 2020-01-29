@@ -21,7 +21,7 @@ define([
     "./painters/SensoresAmbiental",
     "./painters/MatrizPainter",
     "./painters/PublicacionesPainter",
-    
+    "./painters/DenuePainter",
     
     "./SoundLayer",
     "./Ambiental",
@@ -40,7 +40,7 @@ define([
 ], function (MapFactory, GoogleMap, LayerFactory,
          ReferenceProvider, LayerConfigUtil, Util, LayerType,
         EstadoPainter, SensorTelegestion, SensoresPainter, layerPainter, callesPainter,SensoresSonido,
-        SensoresAmbiental,MatrizPainter,PublicacionesPainter,
+        SensoresAmbiental,MatrizPainter,PublicacionesPainter,DenuePainter,
          SoundLayer, Ambiental, Shapes, AireBalloon, TelegestionBalloon,
         MovilidadLayer, DefaultBalloon, TelegestionLayer, LoadEverything, FilterFactory, SensoresMovilidad) {
     console.log("Iniciando...");
@@ -103,7 +103,7 @@ define([
     }
     
     var guanajuato, sMovilidad={},sMovilidadVectores={},sMovilidadSimulacion={}, sMovilidadMatriz={}, calles={}, luminarias={};
-    var luminariasTramos={}, edificios={}, sAire={}, sSonido={}, eventos={}, telegestion={}, publicitarios;
+    var luminariasTramos={}, edificios={}, sAire={}, sSonido={}, eventos={}, telegestion={}, publicitarios, denue, agebs;
     
     var rutas={}, ambiental={};
     var tablaSensores=[];
@@ -137,6 +137,11 @@ define([
             },"https://lfci.aggme.tech:/ogc/wms/guadalajara", "guadalajara");
         map.layerTree.addChild(guanajuato);
         
+        agebs = LayerFactory.createWMSLayer(mainReference, {label:"AGEBs", visible: false, selectable:true, layerType:LayerType.BASE},"https://lfci.aggme.tech:/ogc/wms/guadalajara_ageb", "guadalajara_agebs");
+        map.layerTree.addChild(agebs, "bottom");
+        agebs.balloonContentProvider = function (feature) {
+            return DefaultBalloon.getBalloon(feature);
+        };
         
         // ================================ Movilidad ===================================== //
         if(tipoUsuario === "dev" || tipoUsuario === "movilidad") {
@@ -190,37 +195,37 @@ define([
         // ================================ Telegestion ===================================== //
         if(tipoUsuario === "dev" || tipoUsuario === "telegestion") {
             
-            
-            luminariasTramos = LayerFactory.createFeatureLayer(referenceC, {id: "TLuminariasTramos", label:"Luminarias Tramos", painter: new SensorTelegestion(), selectable:true, layerType: LayerType.STATIC}, "data/lineas_fragmentado.geojson");
+            denue = LayerFactory.createWFSLayer(referenceC, {id:"TDenue", label:"Denue", visible: false, selectable:true, painter: new DenuePainter(), layerType: LayerType.STATIC},
+                "https://lfci.aggme.tech:/ogc/wfs/sip_filtro-2", "sip_guadalajara");
+            map.layerTree.addChild(denue);
+            denue.balloonContentProvider = function (feature) {
+               return DefaultBalloon.getBalloon(feature);
+            };
+            Util.setLabels(denue, false);
+            /*luminariasTramos = LayerFactory.createFeatureLayer(referenceC, {id: "TLuminariasTramos", label:"Luminarias Tramos", painter: new SensorTelegestion(), selectable:true, layerType: LayerType.STATIC}, "data/lineas_fragmentado.geojson");
             //luminariasTramos = LayerFactory.createWMSLayer(referenceC, {label:"Luminarias Tramos", layerType: LayerType.STATIC}, "http://localhost:8081/ogc/wms/luminarias_tramos", "LuminariasTramos");
             map.layerTree.addChild(luminariasTramos);
             luminariasTramos.balloonContentProvider = function (feature) {
                return DefaultBalloon.getBalloon(feature);
             };
             
-            //if(conectToFusion === false)
-                luminarias = LayerFactory.createMemoryLayer(referenceC, {id: "TLuminarias", label:"Luminarias", painter: new SensorTelegestion(), selectable:false, layerType: LayerType.DINAMIC}, "data/prueba.geojson");
-            /*else {
-                luminarias = LayerFactory.createWFSLayer(null, 
-                    {label:"Luminarias", painter: new SensorTelegestion(), selectable:true, layerType: LayerType.DINAMIC},
-                     "https://cileon.aggme.tech/InterSect/fusion/ogc/wfs/luminarias_puntos", "luminarias");
-            }*/
+            luminarias = LayerFactory.createMemoryLayer(referenceC, {id: "TLuminarias", label:"Luminarias", painter: new SensorTelegestion(), selectable:false, layerType: LayerType.DINAMIC}, "data/prueba.geojson");
             luminarias.balloonContentProvider = function (feature) {
                return DefaultBalloon.getBalloon(feature);
             };
-            map.layerTree.addChild(luminarias);
+            map.layerTree.addChild(luminarias);*/
             
             telegestion = LayerFactory.createMemoryLayer(referenceC, {id: "TBisnagas", label:"Bisnagas", painter: new SensorTelegestion(),selectable: true, layerType: LayerType.STATIC});
             map.layerTree.addChild(telegestion);
             TelegestionLayer.getDataLayer(telegestion, config.useUrl, luminarias, map, referenceC);
             
-            if(tipoUsuario === "telegestion") {
+            /*if(tipoUsuario === "telegestion") {
                 var queryFinishedHandle = luminariasTramos.workingSet.on("QueryFinished", function() {
                         if(luminariasTramos.bounds) 
                             map.mapNavigator.fit({bounds: luminariasTramos.bounds, animate: true});
                         queryFinishedHandle.remove();
                     });
-            }
+            }*/
         }
         
         // ================================ Ambiental ===================================== //
@@ -284,16 +289,6 @@ define([
     //Clock();
     function Clock() {
         //$('#timelabel').text(Util.formatDate(null, "dd/mm/aaaa hh:mm"));
-        /*sMovilidad.filter = function (feature) {
-            return true;
-        };*/
-        /*try {
-        sSonido.filter = function (feature) {
-            return true;
-        };
-        //sAire.filter = function (feature) { return true; };
-        } catch(e) {}
-        */
         setTimeout(Clock,3000);
     }
     
@@ -308,37 +303,11 @@ define([
             if (event.selectionChanges.length > 0 && event.selectionChanges[0].selected.length > 0 ) {
                 selectedFeature = event.selectionChanges[0].selected[0]; 
                 
-                if(event.selectionChanges[0].layer.label === 'Bisnagas') {
-                    
-                }
-                
-                /*if(event.selectionChanges[0].layer.label !== 'Sensores Movilidad' &&
-                        event.selectionChanges[0].layer.label !== 'Vectores Movilidad' &&
-                        event.selectionChanges[0].layer.label !== 'Sensores Aire' &&
-                        event.selectionChanges[0].layer.label !== 'Bisnagas') {
-                    mostrarLeftPanel("balloonSensores");
-                    var balloon = SensorBalloon.getBalloon(selectedFeature);
-                    document.getElementById("sensorContent").innerHTML = balloon;
-                }*/
-            } else {
-                ocultarLeftPanel("balloonSensores");
-                //mostrarOcultarSensores();
-            }
+            } 
         });
-        /*map.on("MapChange", function (event) {
+        map.on("MapChange", function (event) {
             console.log("X "+map.xScale+"    Y "+map.yScale);
         });
-    /*
-     * ===========================================================================================
-     *                          Inicio de sensores
-     * ===========================================================================================
-     */
-    function mostrarLeftPanel(div) {
-        $("#"+div).fadeIn();
-    }
-    function ocultarLeftPanel(div) {
-        $("#"+div).fadeOut();
-    }
     
     
     /*
@@ -503,6 +472,16 @@ define([
         var check = div.currentTarget.checked;
         publicitarios.visible = check;
     });
+    
+    $("#verDenue").on("change", function (div) {
+        var check = div.currentTarget.checked;
+        denue.visible = check;
+    });
+    $("#verAgebs").on("change", function (div) {
+        var check = div.currentTarget.checked;
+        agebs.visible = check;
+    });
+    
     var etiquetas = true;
     $("#Labels").click(function () {
         etiquetas = !etiquetas;

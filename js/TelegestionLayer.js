@@ -9,6 +9,7 @@ define(["recursos/js/Shapes", "recursos/js/Util", "./TelegestionCharts",
 function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeChartManager) {
     
     var baseUrl = "https://cileon.aggme.tech/InterSect/serviciosrs/monitor/1.0";
+    var redirectUrl = "https://cileon.aggme.tech/InterSect/redireccion?RedirectURL=";
     var telegestionLayer, gridLayer;
     var meters = ["500GUC", "501GUC", "502GUC", "503GUC", "504GUC", "505GUC"];
     function getDataLayer(layer, url, layer2, map, reference) {
@@ -27,8 +28,8 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
                     //est[est.length] = feature.properties[meters[i]];
                 }
             }*/
-            var est = feature.properties.Estado;
-            var msg = est===true? "Apagar": "Encender";
+            var msg = feature.properties.Estado;
+            var est = msg==="encendido" || msg==="encendiendo"? true: false;
             document.getElementById("meterId1").innerHTML = msg;
             document.getElementById("cEncenderApagar1").checked = est;
             //document.getElementById("meterId2").innerHTML = meds[1];
@@ -73,36 +74,40 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
     $("#gridTransparencia").on("input", updateGrid);
     
     function crearCapa() {
-        $.getJSON(baseUrl+"/telegestion/contactores", function(data) {
+        var lons = [-103.348752, -103.36451857184899, -103.3595017613037, -103.36451857184899, -103.3595017613037];
+        var lats = [20.697536, 20.652028619042536, 20.65302354539969, 20.65302354539969, 20.652028619042536];
+        $.getJSON(redirectUrl+encodeURI("http://sensores.ergonet.mx:8001/api/obtenerNodos"), function(data) {
             var n = data.length;
             meters = [];
             var ids=[];
             for(var i=0; i<n; i++) {
                 var contactor = data[i];
-                var x = contactor.longitud;
-                var y = contactor.latitud;
+                var x = contactor.longitud || lons[i] || 0;
+                var y = contactor.latitud || lats[i] || 0;
                 var id = contactor.id;
-                var medidores = contactor.medidores;
+                //var medidores = contactor.medidores;
                 var properties = {
                     Id: id,
                     Nombre: contactor.nombre,
-                    "Numero de serie": contactor.serialnumber,
-                    "Dirección": contactor.address,
+                    Alias: contactor.alias,
+                    //"Numero de serie": contactor.serialnumber,
+                    //"Dirección": contactor.address,
+                    Estado: contactor.estado_actual,
                     Longitud: x,
                     Latitud: y,
-                    Medidores: medidores,
-                    Estado: false,
+                    //Medidores: medidores,
+                    "Conexion": "En linea",
                     Alertas: 0
                 };
-                if(x > -101.80101604972198 && x < -101.37788057285069 && y > 20.864701036059994 && y < 21.339929516664647 && id !== "LEN_01") {
-                    for(var j in medidores) {
+                //if(x > -101.80101604972198 && x < -101.37788057285069 && y > 20.864701036059994 && y < 21.339929516664647 && id !== "LEN_01") {
+                    /*for(var j in medidores) {
                         meters[meters.length] = medidores[j].id;
                         //properties[medidores[j].id] = false;
-                    }
+                    }*/
                     var point = Shapes.createPoint(telegestionLayer.model.reference, x, y, 0, id, properties);
                     telegestionLayer.model.add(point);
                     ids[ids.length] = id;
-                }
+                //}
             }
             Util.setOptions("selectorContactor", ids, false);
             //Util.setOptions("selectorMedidorTelegestionTR", meters, false);
@@ -115,49 +120,19 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
         
         
     }
-    
-    function getBisnagas(layer) {
-        telegestionLayer = layer;
-        var ids = ["TLO-A02", "TLO-A04", "TLO-A06"];
-        var lat = [21.094600, 21.093250, 21.091967];
-        var lon = [-101.692217, -101.687433, -101.682017];
-        var meter = [["500GUC", "501GUC"], ["502GUC", "503GUC"], ["504GUC", "505GUC"]], j=0;
-        for(var i=0; i<ids.length; i++) {
-            var properties = {
-                Nombre: ids[i], Longitud: lon[i], Latitud: lat[i], Tipo: "bisnaga"
-                //"Medidor 1": meter[j], "Medidor 2": meters[j+1]
-            };
-            var med;
-            for(j in meter[i]) {
-                med = meter[i][j];
-                properties[med] = false;
-            }
-            var point = Shapes.createPoint(layer.model.reference, lon[i], lat[i], 0, ids[i], properties);
-            telegestionLayer.model.add(point);
-        }
-    }
     /* 
      * ==========================================================================================
      *                             Creacion de graficas
      * ==========================================================================================
      */
     var reintentar = true;
-    function getData(inicio, fin, id, handeler, handelerError) {
-        if(!inicio && ! fin) {
-            fin = Date.now();
-            inicio = fin - (1000*60*60*24);
-        }
-        inicio = typeof inicio === "string"? inicio: Util.formatDate(inicio, "aaaa-mm-dd");
-        fin = typeof fin === "string"? fin: Util.formatDate(fin, "aaaa-mm-dd");
-        if(!id) {
-            id = "503GUC";
-            document.getElementById("selectorMedidorTelegestionTR").selectedIndex = 3;
-        }
+    function getEstadoActual(handeler, handelerError) {
         //$.getJSON("http://165.22.155.28:8080/protecsa/instantaneous_statistics?guc="+id+"&start="+inicio+"&end="+fin, function (data) {
-        $.getJSON("https://cileon.aggme.tech/InterSect/redireccion?guc="+id+"&start="+inicio+"&end="+fin+"&RedirectURL=http%3A%2F%2F165.22.155.28%3A8080%2Fprotecsa%2Finstantaneous_statistics",
+        $.getJSON(redirectUrl + encodeURI("http://sensores.ergonet.mx:8001/api/obtenerNodos"),
         function (data) {
-            handeler(data, inicio, fin);
+            handeler(data);
         }).fail(function (error) {
+            console.error(error);
             handelerError(error);
         });
     }
@@ -260,7 +235,8 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
      */
     var reintentarTR=true;
     function getDataTR(inicio, fin, id, handeler, handelerError) {
-        id = id || document.getElementById("selectorContactor").selectedOptions[0].innerHTML;
+        //id = id || document.getElementById("selectorContactor").selectedOptions[0].innerHTML;
+        id = "TLO-02";
         if(!inicio && !fin) {
             fin = Date.now();
             inicio = fin - (1000*60*60);
@@ -317,13 +293,15 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
         updateRealTime();
         setInterval(function () {
             updateRealTime();
-        }, 300000);
+            getEstadoActual(updateLayer);
+        }, 60000);
     }
     
     function updateRealTime() {
         $("#loadingTelegestionTR").fadeIn();
         getDataTRUlt(function (data) {
             var select = document.getElementById("selectorContactor").selectedOptions[0].innerHTML;
+            select = "TLO-02";
             var datos;
             for(var i in data) {
                 var id = data[i].id;
@@ -332,7 +310,7 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
                 }
             }
             TelegestionCharts.updateGraficaTR(datos);
-            updateLayer(data);
+            //updateLayer(data);
             $("#loadingTelegestionTR").fadeOut();
         }, function(error) {
             console.error(error);
@@ -354,7 +332,9 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
                 feature.properties.Estado = "Desconosido";
                 return true;
             }
-            var lum = datos.luminosity;
+            feature.properties.Estado = datos.estado_actual;
+            return true;
+            /*var lum = datos.luminosity;
             feature.properties.Luminosidad = lum;
             var estado = datos.medidores[0].statusrelay || false;
             estado = estado === "TRUE"? true: false;
@@ -374,9 +354,7 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
             for(var i in medidores) {
                 nAlertas += medidores[i].numalarm;
             }
-            feature.properties.Alertas = nAlertas;
-            
-            return true;
+            feature.properties.Alertas = nAlertas;*/
         };
     }
     
@@ -386,8 +364,6 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
             updateRealTime();
     });
     $("#selectorContactor").on("change", function (event) {
-        //event.stopPropagation();
-        event.stopImmediatePropagation();
         console.log("Entrando "+actualizar);
             crearGraficaTR();
             if(graficaHistorialCreada === true)
@@ -420,33 +396,23 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
             return 0;
         }
         var idSelected = document.getElementById("idLuminaria").innerHTML;
+        idSelected = idSelected.replace("Nodo ", "");
+        idSelected = parseInt(idSelected);
         var feature = telegestionLayer.model.get(idSelected);
-        if(!feature || !idSelected) {
+        if(!feature) {
             console.log("No id "+idSelected+" O no feature");
             return 0;
         }
         document.getElementById("labelContactador").innerHTML = "";
         document.getElementById("labelErrorTelegestion").innerHTML = "";
         //var meter = document.getElementById("meterId"+(id+1)).innerHTML;
-        var datos = feature.properties.Medidores;
-        var medidores=[];
-        for(var m in datos) {
-            medidores[m] = datos[m].id;
-        }
-        enviar(estado, medidores, feature, 0);
         
+        enviar(feature.properties.Estado, feature);
     }
     
-    function enviar (estado, medidores, feature, nEnvio) {
-        if(!medidores[nEnvio]) { 
-            var msg = estado===true? "Apagar": "Encender";
-            document.getElementById("meterId1").innerHTML = msg;
-            feature.properties.Estado = estado;
-            var balloon = TelegestionBalloon.getBalloon(feature);
-            document.getElementById("luminariaContent").innerHTML = balloon;
-            telegestionLayer.filter = function(feature) { return true; };
-            return 0;
-        }
+    function enviar (estado, feature) {
+        estado = estado.toLowerCase();
+        var comando = estado==="encendido" || estado==="encendiendo"? "TURN_OFF": "TURN_ON";
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState === 4 && (this.status === 200 || this.status === 202)) {
@@ -457,33 +423,32 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
                     console.log(this.responseText);
                 }
                 console.log(response);
-                if(response.ERROR) {
-                    estado = !estado;
-                    document.getElementById("labelErrorTelegestion").innerHTML += "<p>Error con "+medidores[nEnvio]+" "+response.ERROR;
+                if(response.mensaje === "Encendiendo" || response.mensaje === "Apagando") {
+                    document.getElementById("labelContactador").innerHTML += "<p>"+response.mensaje+" "+feature.properties.Nombre;
+                    feature.properties.Estado = response.mensaje;
+                    var balloon = TelegestionBalloon.getBalloon(feature);
+                    document.getElementById("luminariaContent").innerHTML = balloon;
+                    setTimeout(function (){ getEstadoActual(updateLayer);}, 60000);
                 } else {
-                    var ms = document.getElementById("meterId1").innerHTML;
-                    document.getElementById("labelContactador").innerHTML += "<p>Medidor "+medidores[nEnvio]+" "+ms+" con exito";
+                    document.getElementById("labelErrorTelegestion").innerHTML += "<p>Error con "+feature.propertiee.Nombre+" "+response.mensaje;
                 }
                 
-                enviar (estado, medidores, feature, nEnvio+1);
             } else {
                 if(this.readyState>3) {
-                    document.getElementById("cEncenderApagar1").checked = !estado;
+                    document.getElementById("cEncenderApagar1").checked = !document.getElementById("cEncenderApagar1").checked;
                     console.error(this.responseText);
-                    document.getElementById("labelErrorTelegestion").innerHTML += "<p>Error con "+medidores[nEnvio]+" "+this.statusText+" "+this.status;
-                    enviar (estado, medidores, feature, nEnvio+1);
+                    document.getElementById("labelErrorTelegestion").innerHTML += "<p>Error con "+feature.propertiee.Nombre+" "+this.statusText+" "+this.status;
                 }
             }
         };
-        xhttp.open("POST", baseUrl+"/r/telegestion/com", true);
+        xhttp.open("POST", "http://sensores.ergonet.mx:8001/api/enviarComando", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.send('DATA=[{"TYPE":"relay","SERIAL_NUMBER":"'+medidores[nEnvio]+'","PARAM":{"ST":'+estado+'}}]');
+        xhttp.send('nodo=1&comando='+comando);
+        //xhttp.send('DATA=[{"TYPE":"relay","SERIAL_NUMBER":"'+medidores[nEnvio]+'","PARAM":{"ST":'+estado+'}}]');
     }
-    var actualizar = true;
     $("#cEncenderApagar1").on("change", function (element) {
             encenderApagar(element, 0) ;
     });
-    var actualizar = true;
     $("#cEncenderApagar2").on("change", function (element) {
             encenderApagar(element, 1) ;
     });

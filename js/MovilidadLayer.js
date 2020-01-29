@@ -136,8 +136,6 @@ define([
      * ==========================================================================================
      */
     function updateDataNodes() {
-        //var url = "https://api.bitcarrier.net/v1.0/api/installations/guanajuato_leon/data/odm?key=i0MztbpzfNdWqWI3MWVkODBlLTRhOWItNDE5OS05NmU1LTE4ZjM5YzczYTAyMw";
-        //var url = "http://165.22.155.28:5000/bitcarrier/odm";
         var url = "https://cileon.aggme.tech/InterSect/redireccion";
         var date = Util.formatDate(null, "aaaammdd");
         var date2 = Util.formatDateUTC(null, "aaaammdd");
@@ -147,12 +145,13 @@ define([
         h = (h) * 60;
         time = Math.round((h + m) / 15);*/
         var time2 = new Date();
-        var h2 = time2.getHours(), m2 = time2.getMinutes();
-        //h2 = (h2) * 60;
-        //time2 = Math.round((h2 + m2) / 15);
-        h2 = (h2*4)-1;
+        var h2 = time2.getHours()-1, m2 = time2.getMinutes();
+        h2 = (h2) * 60;
+        h2 = (h2 + m2) / 15;
+        h2 = Math.floor(h2);
+        //h2 = (h2*4)-1;
         var origenDestino = document.getElementById("tipoMatriz").selectedOptions[0].value;
-        $.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+h2+"s1&table="+origenDestino+"&returns=true&z=1", function (data) {
+        $.getJSON(baseUrl+"/movilidad/odm?date="+date+"&slot="+h2+"s1&table="+origenDestino+"&returns=true&z=1", function (data) {
         //$.getJSON(url+"?date="+date+"&slot="+time+"s1&table="+origenDestino+"&returns=true&z=1"
 	//	+"&RedirectURL="+encodeURI("http://165.22.155.28:5000/bitcarrier/odm"), function (data) {
         //$.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+time, function (data) {
@@ -288,7 +287,6 @@ define([
             var nivel = vectores[i].properties["Nivel de servicio"];
             if(!distancias[nivel])
                 distancias[nivel] = 0;
-            
             distancias[nivel] += parseInt(vectores[i].properties.Distancia);
             total += parseInt(vectores[i].properties.Distancia);
         }
@@ -305,35 +303,32 @@ define([
         porcentaje = porcentaje.toFixed(2)+"%";
         var dis = total - distancias[niveles[i-1]];
         tabla[tabla.length] = ["Total", (dis/1000)+" Km", porcentaje];
-        var etiqueta = '<table id="contenttablaNivelesServicio>'+
-                    '$tabla' +
-                    '</table>' ;
-                    //'</div>';
-            var columna = '<td align="center"><b>$dato</b></td>';
-            var colorColum = '<td align="center" style="color: $COLOR"><b>$dato</b></td>';
-            var columnas ='';
-            var fila = '<tr bgcolor="$COLOR">$columna</tr>' ;
-            var filas= '', etiquetaTabla ='', n=tabla.length , m = tabla[0].length;
-            var options =  { color1: '#4b6a86', color2: '', enumerado: false };
-            var datos = tabla[0], color;
-            var colores = ["#20e11a", "#f3f328", "#f34428", "#b0b0b0", "#ffffff"];
-            try {
-                for(var i=0; i<n; i++) {
-                    datos = tabla[i];
-                    for(var j=0;j<m;j++) {
-                        if(i>0 && j===0)
-                            columnas += colorColum.replace("$COLOR", colores[i-1]).replace('$dato', datos[j]);
-                        else
-                            columnas += columna.replace('$dato', datos[j]);
-                    }
-                    color = "";
-                    filas += fila.replace('$columna', columnas).replace("$COLOR", color);
-                    etiquetaTabla += filas;
-                    columnas='';
-                    filas ='';
+        var etiqueta = '<table id="contenttablaNivelesServicio>$tabla</table>';
+        var columna = '<td align="center"><b>$dato</b></td>';
+        var colorColum = '<td align="center" style="color: $COLOR"><b>$dato</b></td>';
+        var columnas ='';
+        var fila = '<tr bgcolor="$COLOR">$columna</tr>' ;
+        var filas= '', etiquetaTabla ='', n=tabla.length , m = tabla[0].length;
+        var options =  { color1: '#4b6a86', color2: '', enumerado: false };
+        var datos = tabla[0], color;
+        var colores = ["#20e11a", "#f3f328", "#f34428", "#b0b0b0", "#ffffff"];
+        try {
+            for(var i=0; i<n; i++) {
+                datos = tabla[i];
+                for(var j=0;j<m;j++) {
+                    if(i>0 && j===0)
+                        columnas += colorColum.replace("$COLOR", colores[i-1]).replace('$dato', datos[j]);
+                    else
+                        columnas += columna.replace('$dato', datos[j]);
                 }
-            } catch(e) { console.error(e); }
-            etiqueta = etiqueta.replace('$tabla', etiquetaTabla);
+                color = "";
+                filas += fila.replace('$columna', columnas).replace("$COLOR", color);
+                etiquetaTabla += filas;
+                columnas='';
+                filas ='';
+            }
+        } catch(e) { console.error(e); }
+        etiqueta = etiqueta.replace('$tabla', etiquetaTabla);
         document.getElementById("tablaNivelesServicio").innerHTML=etiqueta;
     }
     /* 

@@ -52,6 +52,19 @@ define(["luciad/view/feature/FeaturePainter",
             draped: true
         };
         
+        this.styleA = {
+            width: "40px",
+            height: "40px",
+            image: "data/icons/telegestion/bisnagaA.png",
+            draped: false
+        };
+        this.styleAa = {
+            width: "40px",
+            height: "40px",
+            image: "data/icons/telegestion/bisnagaAa.png",
+            draped: false
+        };
+        
         this.styleOffa = {
             width: "40px",
             height: "40px",
@@ -117,26 +130,30 @@ define(["luciad/view/feature/FeaturePainter",
         if(feature.geometry.x) {
             
             var encendido= feature.properties.Estado;
-            var style;
+            var style = this.styleOffline;
             var alertas = feature.properties.Alertas;
             var online = feature.properties["Conexion"];
             if(!alertas) {
                 if(online !== "En linea")
                     style = this.styleOffline;
                 else {
-                    if(encendido===true || encendido === "TRUE") 
-                        style = this.styleOn;
-                     else 
-                        style = this.styleOff;
+                    switch(encendido.toLowerCase()) {
+                        case "encendido": style = this.styleOn; break;
+                        case "apagado": style = this.styleOff; break;
+                        case "encendiendo":
+                        case "apagando": style = this.styleA; break;
+                    }
                 }
             } else {
                 if(online !== "En linea")
                     style = this.styleOfflinea;
                 else {
-                    if(encendido===true || encendido === "TRUE") 
-                        style = this.styleOna;
-                     else 
-                        style = this.styleOffa;
+                    switch(encendido) {
+                        case "encendido": style = this.styleOna; break;
+                        case "apagado": style = this.styleOffa; break;
+                        case "encendiendo":
+                        case "apagando": style = this.styleAa; break;
+                    }
                 }
             }
             geoCanvas.drawIcon(shape, style);
