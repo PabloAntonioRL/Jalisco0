@@ -842,7 +842,7 @@ define([
      *============================================================================================================
      *                                      Control Actuador
      *============================================================================================================
-     *
+     */
     // Aqui se detecta cuando se cambia el switch de apagado y encendido
     $("#Actuador").click( function (div) {
         var check = div.currentTarget.checked;

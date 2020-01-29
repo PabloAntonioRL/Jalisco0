@@ -1,9 +1,9 @@
 {
-    "useUrl": "https://cileon.aggme.tech/InterSect/serviciosrs/monitor/1.0",
+    "useUrl": "https://smartcity.aggme.tech/InterSect/serviciosrs/monitor/1.0",
 
     "fusionServer": "http://localhost:8081",
     
-    "baseUrl": "https://cileon.aggme.tech/InterSect/serviciosrs/monitor/1.0",
+    "baseUrl": "https://smartcity.aggme.tech/InterSect/serviciosrs/monitor/1.0",
     "serverUrl": "/InterSect/serviciosrs/monitor/1.0",
     
     "googleMap": false,

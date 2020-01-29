@@ -29,7 +29,7 @@ function (sensorCharts, Util, Shapes, AireBalloon) {
                 console.error("Sin datos de Ambiental");
             } else
                 console.log("================= Conectado con exito al sensor Ambiental =======================");
-            data = ordenarLista(data, ["AE01","AE02","AE03","AE04","AE05","AE06","AE07","AE08"]);
+            //data = ordenarLista(data, ["AE01","AE02","AE03","AE04","AE05","AE06","AE07","AE08"]);
             crearCapa(reference, layer, data, map);
         }).fail(function(e) {
             console.log("Error al obtener datos ambiental");
@@ -72,13 +72,11 @@ function (sensorCharts, Util, Shapes, AireBalloon) {
             var y = parseFloat(dato.latitud);
             var point = Shapes.createPoint(reference, x, y, 0, dato.id, properties);
             //if(limits.contains2D(point)) {
-            if(x > -101.80101604972198 && x < -101.37788057285069 && y > 20.864701036059994 && y < 21.339929516664647) {
+            //if(x > -101.80101604972198 && x < -101.37788057285069 && y > 20.864701036059994 && y < 21.339929516664647) {
                 capaSensores.model.add(point);
                 ids[ids.length] = dato.id;
                 nombres[nombres.length] = dato.nombre;
-            } else {
-                console.log(dato);
-            }
+            
         }
         Util.setOptions("selectSensorAmbiental", nombres, false, ids);
         Util.fitCoordinates(map, [-101.74787733716875, 0.13691, 21.05929218306161, 0.14522], true);
