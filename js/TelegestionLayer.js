@@ -74,8 +74,8 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
     $("#gridTransparencia").on("input", updateGrid);
     
     function crearCapa() {
-        var lons = [-103.348752, -103.36451857184899, -103.3595017613037, -103.36451857184899, -103.3595017613037];
-        var lats = [20.697536, 20.652028619042536, 20.65302354539969, 20.65302354539969, 20.652028619042536];
+        var lons = [ -103.36451857184899, -103.348752,-103.3595017613037, -103.36451857184899, -103.3595017613037];
+        var lats = [ 20.652028619042536, 20.697536, 20.65302354539969, 20.65302354539969, 20.652028619042536];
         $.getJSON(redirectUrl+encodeURI("http://sensores.ergonet.mx:8001/api/obtenerNodos"), function(data) {
             var n = data.length;
             meters = [];
