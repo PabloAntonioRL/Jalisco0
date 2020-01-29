@@ -273,6 +273,9 @@ define(["recursos/js/Shapes", "recursos/js/LayerFactory", 'recursos/js/Util', ".
         var actualTime = Date.parse(new Date());
         var startTime = actualTime - (1000*60*60*2);
         
+            startTime = "2020-01-21 00:00:00";
+            actualTime = "2020-01-21 12:00:00";
+        
         setDates(startTime, actualTime);
         //var idSensor = "41908";
         var idSensor = document.getElementById("selectSensorSonido").value;

@@ -340,6 +340,8 @@ define([
         if(!inicio && !fin) {
             fin = Date.now();
             inicio = fin - (1000*60*60*24);
+            inicio = "2020-01-21 00:00:00";
+            fin = "2020-01-21 12:00:00";
         } 
         var inicio2 = Util.formatDateUTC(inicio, "aaaa-mm-dd hh:mm:ss");
         var fin2 = Util.formatDateUTC(fin, "aaaa-mm-dd hh:mm:ss");
@@ -648,6 +650,9 @@ define([
         if(!inicio && !fin) {
             fin = Date.now();
             inicio = fin - (1000*60*60*4);
+            
+            inicio = "2020-01-21 00:00:00";
+            fin = "2020-01-21 12:00:00";
         }
         inicio = Util.formatDateUTC(inicio, "aaaa-mm-dd hh:mm");
         fin = Util.formatDateUTC(fin, "aaaa-mm-dd hh:mm");

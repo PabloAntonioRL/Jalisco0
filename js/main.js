@@ -135,7 +135,7 @@ define([
             //requestParameters: {RedirectURL: "http://localhost:8081/ogc/wms/guanajuatomunicipios"}}, 
             //"https://cileon.aggme.tech/InterSect/redireccion", "guanajuatomunicipios");
             },"https://lfci.aggme.tech:/ogc/wms/guadalajara", "guadalajara");
-        map.layerTree.addChild(guanajuato);
+        map.layerTree.addChild(guanajuato, "bottom");
         
         agebs = LayerFactory.createWMSLayer(mainReference, {label:"AGEBs", visible: false, selectable:true, layerType:LayerType.BASE},"https://lfci.aggme.tech:/ogc/wms/guadalajara_ageb", "guadalajara_agebs");
         map.layerTree.addChild(agebs, "bottom");
@@ -724,7 +724,8 @@ define([
                     map.mapNavigator.fit({bounds: sSonido.bounds, animate: true});
                 break;
             case "Ambiental": if(ambiental.bounds)
-                    map.mapNavigator.fit({bounds: ambiental.bounds, animate: true});
+                    //map.mapNavigator.fit({bounds: ambiental.bounds, animate: true});
+                        Util.fitCoordinates(map, [-101.74787733716875- 1.68, 0.13691, 21.05929218306161 - 0.451, 0.14522], true);
                 break;
         }
         /*switch(usuario) {

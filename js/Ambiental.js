@@ -132,6 +132,8 @@ function (sensorCharts, Util, Shapes, AireBalloon) {
         if(!inicio && !fin) {
             fin = Date.now();
             inicio = fin - (1000*60*60*12);
+            inicio = "2020-01-21 00:00:00";
+            fin = "2020-01-21 12:00:00";
         } 
         inicio =  Util.formatDate(inicio, "aaaa-mm-dd hh:mm:ss");
         fin = Util.formatDate(fin, "aaaa-mm-dd hh:mm:ss");
@@ -173,6 +175,8 @@ function (sensorCharts, Util, Shapes, AireBalloon) {
         if(!inicio && !fin) {
             fin = Date.now();
             inicio = fin - (1000*60*60*12);
+            inicio = "2020-01-21 00:00:00";
+            fin = "2020-01-21 12:00:00";
         } 
         inicio = Util.formatDateUTC(inicio, "aaaa-mm-dd hh:mm:ss");
         fin  = Util.formatDateUTC(fin, "aaaa-mm-dd hh:mm:ss");

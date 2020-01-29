@@ -138,9 +138,12 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
     }
     
     function crearGraficas() {
-        var fin = Date.now();
-        var inicio = Util.formatDate(fin - (1000*60*60*24), "aaaa-mm-dd");
-        fin = Util.formatDate(fin + (1000*60*60*24), "aaaa-mm-dd");
+        var inicio = "2020-01-21 00:00:00";
+        var fin = "2020-01-21 12:00:00";
+        //var fin = Date.now();
+        inicio = Util.formatDate(inicio, "aaaa-mm-dd hh:mm");
+        fin = Util.formatDate(fin, "aaaa-mm-dd hh:mm");
+        
         getDataTR( inicio, fin, null, function (data, inicio, fin) {
             //document.getElementById("fechaTelegestion1").value = Util.formatDate(inicio, "aaaa-mm-dd");
             //document.getElementById("fechaTelegestion2").value = Util.formatDate(fin, "aaaa-mm-dd");
