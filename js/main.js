@@ -131,7 +131,7 @@ define([
         
         //var jalisco = LayerFactory.createMunicipiosLayer(["Jalisco"], referenceC, {label:"Jalisco", layerType: LayerType.BASE});
         //map.layerTree.addChild(jalisco);
-        guanajuato = LayerFactory.createWMSLayer(mainReference, {label: "Guanajuato (WMS)", layerType: LayerType.STATIC//, maxScale: 0.00000527501341042231
+        guanajuato = LayerFactory.createWMSLayer(mainReference, {label: "Guanajuato (WMS)", layerType: LayerType.BASE//, maxScale: 0.00000527501341042231
             //requestParameters: {RedirectURL: "http://localhost:8081/ogc/wms/guanajuatomunicipios"}}, 
             //"https://cileon.aggme.tech/InterSect/redireccion", "guanajuatomunicipios");
             },"https://lfci.aggme.tech:/ogc/wms/guadalajara", "guadalajara");
