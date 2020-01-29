@@ -441,7 +441,8 @@ function (Shapes, Util, TelegestionCharts, TelegestionBalloon, GridLayer, TimeCh
                 }
             }
         };
-        xhttp.open("POST", "http://sensores.ergonet.mx:8001/api/enviarComando", true);
+        //xhttp.open("POST", "http://sensores.ergonet.mx:8001/api/enviarComando", true);
+        xhttp.open("POST", redirectUrl+"http://sensores.ergonet.mx:8001/api/enviarComando", true);
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send('nodo=1&comando='+comando);
         //xhttp.send('DATA=[{"TYPE":"relay","SERIAL_NUMBER":"'+medidores[nEnvio]+'","PARAM":{"ST":'+estado+'}}]');

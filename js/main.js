@@ -305,7 +305,7 @@ define([
                 
             } 
         });
-        map.on("MapChange", function (event) {
+        /*map.on("MapChange", function (event) {
             console.log("X "+map.xScale+"    Y "+map.yScale);
         });
     
