@@ -481,6 +481,20 @@ define([
         var check = div.currentTarget.checked;
         agebs.visible = check;
     });
+    $("#selectorDenue").on("change", function (div) {
+        var select = div.currentTarget.selectedOptions[0].innerHTML;
+        if(select === "Todos")
+            denue.filter = null;
+        else {
+            denue.filter = function (feature) {
+                var tipo = feature.properties.TIPO;
+                if(tipo === select) 
+                    return true;
+                else
+                    return false;
+            };
+        }
+    });
     
     var etiquetas = true;
     $("#Labels").click(function () {
