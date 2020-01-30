@@ -103,7 +103,7 @@ define([
     }
     
     var guanajuato, sMovilidad={},sMovilidadVectores={},sMovilidadSimulacion={}, sMovilidadMatriz={}, calles={}, luminarias={};
-    var luminariasTramos={}, edificios={}, sAire={}, sSonido={}, eventos={}, telegestion={}, publicitarios, denue, agebs;
+    var luminariasTramos={}, edificios={}, sAire={}, sSonido={}, eventos={}, telegestion={}, publicitarios, denue, agebs, sSonidoH;
     
     var rutas={}, ambiental={};
     var tablaSensores=[];
@@ -251,7 +251,7 @@ define([
             Ambiental.startAmbiental(referenceC, ambiental, config.useUrl, map);
             
             sSonido = LayerFactory.createMemoryLayer(referenceC, {id: "SSensoresSonido", label:"Sensores Sonido", painter: new SensoresSonido(), selectable:true});
-            var sSonidoH = LayerFactory.createMemoryLayer(referenceC, {id: "SSensoresSonidosH", label:"Sensores Sonido (H)", visible: false, painter: new SensoresSonido(), selectable:true});
+            sSonidoH = LayerFactory.createMemoryLayer(referenceC, {id: "SSensoresSonidosH", label:"Sensores Sonido (H)", visible: false, painter: new SensoresSonido(), selectable:true});
             map.layerTree.addChild(sSonido);
             sSonido.balloonContentProvider = function (feature) {
                     return DefaultBalloon.getBalloon(feature);
@@ -511,6 +511,7 @@ define([
         Util.setLabels(sSonido, etiquetas);
         Util.setLabels(telegestion, etiquetas);
         Util.setLabels(publicitarios, etiquetas);
+        Util.setLabels(sSonidoH, etiquetas);
     });
     /*
      *============================================================================================================
@@ -722,6 +723,7 @@ define([
                 break;
             case "Sonido": if(sSonido.bounds)
                     map.mapNavigator.fit({bounds: sSonido.bounds, animate: true});
+                sSonidoH.visible = false;
                 break;
             case "Ambiental": if(ambiental.bounds)
                     //map.mapNavigator.fit({bounds: ambiental.bounds, animate: true});

@@ -10,7 +10,7 @@
     "mapOptions": {
         "includeBackground": false, 
         "includeElevation": false, 
-        "includeLayerControl": false,
+        "includeLayerControl": true,
         "includeMouseLocation": true,
         "includeBingLayer": ["Aerial", "Road"], 
         "openLayerControl": true,

@@ -492,33 +492,34 @@ define(["recursos/js/Shapes", "recursos/js/LayerFactory", 'recursos/js/Util', ".
                         if(!feature) {
                             feature = {};
                             console.log("No se encontro el Feature de sonido "+id);
-                        }
-                        var traduccion = fen==="leq_a"? "Decibeles A": fen==="leq_c"? "Decibeles C": "Decibeles SPL";
-                        if(lecturas.length===0) {
-                            valor = feature.properties[traduccion] || 0;
-                            time = time2;
-                            feature.properties["Ultima Actualizacion"] = Util.formatTime(time, "aaaa/mm/dd hh:mm");
                         } else {
-                            time = lecturas[0].lstamp;
-                            valor = parseFloat(lecturas[0].value);
-                            feature.properties["Ultima Actualizacion"] = Util.formatDate(time, "aaaa/mm/dd hh:mm");
-                            
-                            feature.properties[traduccion] = valor;
-                            if(selected === id) 
-                                document.getElementById("pieChartsonido"+idFen+"label").innerHTML = "Ultima actualización: "+feature.properties["Ultima Actualizacion"];
-                        }
-                        if(selected === id) {
-                            progreso ++;
-                            if(progreso > 3) {
-                                progreso = 0;
-                                $("#loadingHistorialSonidoTR").fadeOut();
+                            var traduccion = fen==="leq_a"? "Decibeles A": fen==="leq_c"? "Decibeles C": "Decibeles SPL";
+                            if(lecturas.length===0) {
+                                valor = feature.properties[traduccion] || 0;
+                                time = time2;
+                                feature.properties["Ultima Actualizacion"] = Util.formatTime(time, "aaaa/mm/dd hh:mm");
+                            } else {
+                                time = lecturas[0].lstamp;
+                                valor = parseFloat(lecturas[0].value);
+                                feature.properties["Ultima Actualizacion"] = Util.formatDate(time, "aaaa/mm/dd hh:mm");
+
+                                feature.properties[traduccion] = valor;
+                                if(selected === id) 
+                                    document.getElementById("pieChartsonido"+idFen+"label").innerHTML = "Ultima actualización: "+feature.properties["Ultima Actualizacion"];
                             }
-                            console.log("Actualizando Grafica de sonido de "+fen);
-                            document.getElementById("labelSonidoTR").innerHTML = "";
-                            var dif = Date.now() - time;
-                            if(dif > (1000*60*30))
-                                valor = 0;
-                            soundCharts.updateChartsRT(id, idFen, time, valor);
+                            if(selected === id) {
+                                progreso ++;
+                                if(progreso > 3) {
+                                    progreso = 0;
+                                    $("#loadingHistorialSonidoTR").fadeOut();
+                                }
+                                console.log("Actualizando Grafica de sonido de "+fen);
+                                document.getElementById("labelSonidoTR").innerHTML = "";
+                                var dif = Date.now() - time;
+                                if(dif > (1000*60*30))
+                                    valor = 0;
+                                soundCharts.updateChartsRT(id, idFen, time, valor);
+                            }
                         }
                     }
                 }
@@ -920,19 +921,21 @@ define(["recursos/js/Shapes", "recursos/js/LayerFactory", 'recursos/js/Util', ".
                             //fecha = Util.formatDateUTCToLocal(m[j].lstamp, "time");
                             fecha = m[j].lstamp;
                             fechas1 = Util.formatDate(fecha, "mm-dd hh:mm");
-                            /*if(j === m.length-1) {
+                            if(j === 0) {
                                 if(last >= fecha) {
                                     leqs[idfen] = parseFloat(m[j].value);
                                     break;
                                 }
-                            } else {*/
-                                //fecha2 = m[j+1].lstamp;
+                            } else {
+                                fecha2 = m[j-1].lstamp;
+                                var f = Util.formatDate(fecha2, "mm-dd hh:mm");
                                 //if(last >= fecha && last < (fecha + (1000*60))) {
-                                if(fechas2 === fechas1) {
+                                if(last >= fecha && last < fecha2) {
+                                //if(fechas2 === fechas1) {
                                     leqs[idfen] = parseFloat(m[j].value);
                                     break;
                                 }
-                            //}
+                            }
                         }
                     }
                     feature.properties["Decibeles A"] = leqs[0];

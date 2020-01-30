@@ -151,7 +151,7 @@ define([
         h2 = Math.floor(h2);
         //h2 = (h2*4)-1;
         var origenDestino = document.getElementById("tipoMatriz").selectedOptions[0].value;
-        $.getJSON(baseUrl+"/movilidad/odm?date="+date+"&slot="+h2+"s1&table="+origenDestino+"&returns=true&z=1", function (data) {
+        $.getJSON(baseUrl+"/movilidad/odm?date="+date+"&slot="+h2/*+"s1&table="+origenDestino+"&returns=true&z=1"*/, function (data) {
         //$.getJSON(url+"?date="+date+"&slot="+time+"s1&table="+origenDestino+"&returns=true&z=1"
 	//	+"&RedirectURL="+encodeURI("http://165.22.155.28:5000/bitcarrier/odm"), function (data) {
         //$.getJSON(baseUrl+"/movilidad/odm?date="+date2+"&slot="+time, function (data) {
